@@ -1,6 +1,6 @@
 {
   "localizedName": "Soletux Tank Assembly",
-  "description": "Builds high tier Soletux  tank units.",
+  "description": "Assembles high-tier [red]Soletux[] tank units.",
   "type": "UnitAssembler",
   "category": "units",
   "size": 5,

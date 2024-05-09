@@ -1,6 +1,6 @@
 {
-"localizedName": "Voltirium wall",
-"description": "An advnaced and well armored wall. discharges lightning apon being hit.",
+"localizedName": "Voltirium Wall",
+"description": "An advanced and well armored wall. Discharges lightning upon being hit.",
 "type": "Wall",
 "researchCostMultiplier": 0.1,
 "lightningSound": "spark",

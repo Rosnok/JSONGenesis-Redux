@@ -1,7 +1,7 @@
 {
 "localizedName": "T2-ED Altas",
-"description": "The [#aec6ff]Energy devstaion titan[]. The [#aec6ff]T2-ED Atlas[] fires homing projectiles, along with heavry energy rounds, buts main power lies in its dense energy core, which it can fire towards distant targets dealing extinsive damage to buildings, zaps surrounding power structures and units.",
-"details": "[#9681fb]Malis[] is techology has certianly come far with the developemnt of the [#aec6ff]Atlas[] titan, the techology it uses to generate its devastaing core energy attack seems suspicously advanced for what [#9681fb]Malis[] has been capable of before.",
+"description": "The [#aec6ff]Energy Devastation titan[]. The [#aec6ff]T2-ED Atlas[] fires homing projectiles, along with heavy energy rounds, but its main power lies in its dense energy core, which it can fire towards distant targets, dealing extensive damage to buildings. Also shocks surrounding power structures and units.",
+"details": "[#9681fb]Malis[] technology has certainly come far with the development of the [#aec6ff]Atlas[] Titan. However, the technology it uses to generate its devastating core energy attack seems suspiciously advanced for what [#9681fb]Malis[] has been capable of before.",
 "type": "legs",
 "research": {
 "parent": "02-atlas-titan",

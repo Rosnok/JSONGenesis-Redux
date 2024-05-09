@@ -11,66 +11,26 @@
     "power": 8,
     "liquid": {
       "liquid": "slag",
-      "amount": 1.2
+      "amount": 0.8
     }
   },
-  "requirements": [
-    {
-      "item": "copper",
-      "amount": 200
-    },
-    {
-      "item": "silicon",
-      "amount": 200
-    },
-    {
-      "item": "titanium",
-      "amount": 400
-    },
-    {
-      "item": "plastanium",
-      "amount": 230
-    },
-    {
-      "item": "surge-alloy",
-      "amount": 260
-    }
+    "requirements": [
+    "copper/350",
+    "silicon/300",
+    "surge-alloy/300",
+    "plastanium/500",
+    "titanium/800"
   ],
   "category": "crafting",
   "research": "disassembler",
   "results": [
-    {
-      "item": "titanium",
-      "amount": 10
-    },
-    {
-      "item": "surge-alloy",
-      "amount": 8
-    },
-    {
-      "item": "graphite",
-      "amount": 11
-    },
-    {
-      "item": "thorium",
-      "amount": 11
-    },
-    {
-      "item": "lead",
-      "amount": 10
-    },
-    {
-      "item": "copper",
-      "amount": 10
-    },
-    {
-      "item": "sand",
-      "amount": 13
-    },
-    {
-      "item": "scrap",
-      "amount": 12
-    }
+"titanium/4",
+"surge-alloy/2",
+"plastanium/2",
+"graphite/3",
+"thorium/3",
+"lead/4",
+"copper/4"
   ]
 }
 

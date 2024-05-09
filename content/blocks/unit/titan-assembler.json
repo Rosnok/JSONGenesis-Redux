@@ -1,5 +1,5 @@
 {
-"localizedName": "Titan assembler",
+"localizedName": "Titan Assembler",
 "description": "Assembles Titan class units.",
 "type": "UnitAssembler",
 "squareSprite": false,
@@ -44,6 +44,17 @@
 "carbide-wall-large/20",
 "avert/15",
 "obviate/4"
+],
+"time": 16600
+}
+{
+"unit": "T-hyperion",
+"requirements": [
+"tungsten-wall-large/10",
+"carbide-wall-large/10",
+"reinforced-surge-wall-large/10",
+"vanquish/5",
+"tecta/5"
 ],
 "time": 16600
 }

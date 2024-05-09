@@ -1,6 +1,6 @@
 {
 "localizedName": "Upgraded Constructor",
-"description": "can build all available 2 by 2 blocks.",
+"description": "Can build all available 2x2 blocks.",
 "type": "Constructor",
 "research": "constructor"
 "size": 3,

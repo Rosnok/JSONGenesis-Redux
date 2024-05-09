@@ -1,7 +1,7 @@
 {
 "localizedName": "T3-SS Nemesis",
-"description": "The [#bf92f9]Suppresion Support Titan[]. The [#bf92f9]T3-SS Nemesis[] is armed with four frontal cannons which fire helix rounds. fires two large thorium missiles at enemies and structures and posses the ability to suppress nearby regenartion structures and damages units within a certain radius around it. debuffs nearby units.",
-"details": "The [#bf92f9]Nemesis[] is a frightning weapon, built with the sole purpose of suppersing enemy fire power and crippling forces within its specilized field, these units tho where often detect far away from any known [#9681fb]Malis[] bases in remote locations seemling searching for something... But what?.",
+"description": "The [#bf92f9]Suppression Support Titan[]. The [#bf92f9]T3-SS Nemesis[] is armed with four frontal cannons which fire helix rounds. Launches two large thorium warhead missiles at enemies and structures and possesses the ability to suppress nearby regeneration structures and damages units within a certain radius around it. Debuffs nearby units.",
+"details": "The [#bf92f9]Nemesis[] is a rather frightening weapon, built with the sole purpose of suppressing enemy firepower and crippling forces within its specialized field. Though, these units were often detected far away from any known [#9681fb]Malis[] bases in remote locations, seemingly searching for something..",
 "type": "flying",
 "template": "ErekirUnitType",
 "singleTarget": true,

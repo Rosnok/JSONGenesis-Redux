@@ -57,7 +57,7 @@
     ],
     "liquids": [
       "hydrogen/1",
-      "axinian/1"
+      "cold-plasma/1"
     ]
   },
   "requirements": [

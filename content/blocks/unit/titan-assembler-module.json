@@ -1,5 +1,5 @@
 {
-"localizedName": "Advanced Assembler module",
+"localizedName": "Advanced Assembler Module",
 "description": "Increases assembler tier when placed next to a construction boundary. Requires power. Can be used as a payload input.",
 "type": "UnitAssemblerModule",
 "researchCostMultiplier": 0.75,

@@ -1,0 +1,75 @@
+type: ItemTurret
+researchCostMultiplier: 0.5
+size: 3
+health: 900
+maxAmmo: 60
+ammoPerShot: 12
+reload: 235
+range: 420
+targetAir: true
+targetGround: true
+rotateSpeed: 3.2
+recoil: 4
+shake: 2
+shootSound: railgun
+ammoUseEffect: casing3
+ammoTypes: {
+  thorium: {
+    type: RailBulletType
+    pierceDamageFactor: 0.7
+    collidesTiles: true
+    damage: 380
+	length: 420
+    ammoMultiplier: 2
+	buildingDamageMultiplier: 0.20
+	
+    pointEffect: {
+      type: MultiEffect
+	  effects: [
+	  {
+	  type: pointEffect
+      lifetime: 30
+      particles: 1
+      length: 0
+	  sizeFrom: 36
+      colorFrom: F9C27A
+      colorTo: F9C27A
+	  region: exogenesis-forebodeshoot
+	  }
+	  {
+	  type: pointEffect
+      lifetime: 30
+      particles: 1
+      length: 0
+	  sizeFrom: 24
+      colorFrom: FFF8E8
+      colorTo: FFF8E8
+	  region: exogenesis-forebodeshoot
+	  }
+	  ]
+	  
+    }
+	shootEffect: instShoot
+    hitEffect: railHit
+    pierceEffect: railHit
+    smokeEffect: smokeCloud
+    pointEffectSpace: 13
+    }
+	
+}
+requirements: [
+  plastanium/350
+  silicon/470
+  metaglass/600
+  copper/550
+  thorium/500
+]
+category: turret
+research: 07-van-enforcer
+coolantMultiplier: 0.3
+consumes: {
+  power: 5
+  coolant: {
+    amount: 0.7
+  }
+}

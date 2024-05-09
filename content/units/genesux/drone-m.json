@@ -1,17 +1,18 @@
 {
   "type": "flying",
-  "description": "Genesux often relay on arms of drones, for transport, mining, or attacking",
   "lowAltitude": false,
   "research": "mining-drone-builder",
+  "defaultCommand": "mine",
   "defaultController": "minerAI",
   "mineItems": [
     "astrolite",
     "copper",
-    "lead"
+    "lead",
+	"titanium"
   ],
   "playerControllable": false,
-  "speed": 4.0,
-  "mineSpeed": 7.5,
+  "speed": 3.5,
+  "mineSpeed": 5.0,
   "rotateSpeed": 10.5,
   "mineTier": 3,
   "accel": 0.5,
@@ -26,6 +27,6 @@
   "health": 100,
   "hitSize": 8,
   "armor": 1,
-  "itemCapacity": 8,
+  "itemCapacity": 16,
   "engineOffset": 6
 }

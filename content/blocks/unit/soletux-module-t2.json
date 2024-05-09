@@ -1,5 +1,5 @@
 {
-  "localizedName": "Soletux T2 upgrade module",
+  "localizedName": "Soletux T2 Upgrade Module",
   "description": "Increases assembler tier when placed next to a construction boundary. Requires power. Can be used as a payload input.",
   "type": "UnitAssemblerModule",
   "category": "units",

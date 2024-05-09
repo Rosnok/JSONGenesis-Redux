@@ -1,8 +1,8 @@
 {
 "type": "ConsumeGenerator",
 "squareSprite": false,
-"localizedName": "Advanced reactor",
-"description": "An off shoot of the thorium reactor. generates power from thorium and ozone. Out puts radioactive water as waste. does not explode",
+"localizedName": "Advanced Reactor",
+"description": "An offshoot of the Thorium Reactor. Generates power from thorium and ozone. Outputs radioactive water as waste. Does not explode.",
 "health": 1200,
 "size": 4,
 "powerProduction": 56,

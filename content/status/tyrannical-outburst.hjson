@@ -1,0 +1,18 @@
+{
+  name: tyrannical-outburst
+  speedMultiplier: 1.7
+  damageMultiplier: 1.7
+  reloadMultiplier: 1.7
+  show: true
+  effectChance: 0.4
+  effect: {
+    type: ParticleEffect
+    lifetime: 25
+    length: 0
+    sizeFrom: 2
+    sizeTo: 0
+    particles: 2
+    colorFrom: FF5845FF
+    colorTo: DE4136FF
+  }
+}

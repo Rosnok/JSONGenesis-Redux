@@ -1,6 +1,6 @@
 {
   "type": "Reconstructor",
-  "size": 14,
+  "size": 13,
   "constructTime": 6000,
   "consumes": {
     "power": 58,
@@ -36,6 +36,14 @@
     [
       "assault",
       "bloodshed"
+    ],
+	[
+      "b06-altair",
+      "b07-universalis"
+    ],
+	[
+      "b06-eros",
+      "b07-atlas"
     ]
   ],
   "category": "units",

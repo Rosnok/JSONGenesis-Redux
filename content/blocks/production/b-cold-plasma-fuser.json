@@ -41,10 +41,11 @@
   "consumes": {
     "power": 8,
     "liquids": [
-      "hydrogen/1"
+      "hydrogen/0.6"
     ],
     "items": [
-      "astrolite/2"
+		"titanium/3",
+		"astrolite/2"
     ]
   },
   "requirements": [
@@ -54,10 +55,12 @@
     "terrilium/160",
     "urbium/440"
   ],
-  "envRequired": 0,
+  "envRequired": 1,
+  "envEnabled": 1,
+  "envDisabled": 16
   "category": "crafting",
   "research": "b-silicon-kiln",
-  "outputItem": "omega-blue/1"
+  "outputItem": "omega-blue/2"
 }
 
 

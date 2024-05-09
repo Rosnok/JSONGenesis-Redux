@@ -37,7 +37,7 @@
       "beamWidth": 0.7,
       "pulseRadius": 6,
       "pulseStroke": 2,
-      "repairSpeed": 6.25,
+      "repairSpeed": 3.25,
       "bullet": {
         "shootEffect": {
           "type": "ParticleEffect",
@@ -53,7 +53,7 @@
           "colorTo": "57D993FF"
         },
         "speed": 100,
-        "maxRange": 300
+        "maxRange": 100
       }
     }
   ]

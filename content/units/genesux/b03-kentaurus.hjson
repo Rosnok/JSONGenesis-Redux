@@ -1,0 +1,124 @@
+type: flying
+  research: {
+    parent: b02-gacrux
+    requirements: [
+      astrolite/1200
+      lead/2340
+      silicon/1400
+    ]
+  }
+  lowAltitude: false
+  speed: 1.75
+  accel: 0.1
+  drag: 0.04
+  rotateSpeed: 3
+  outlineColor: 36363c
+  engineColor: A9D8FFFF
+  flying: true
+  health: 2000
+  armor: 4
+  hitSize: 29
+  engineOffset: 18
+  engineSize: 3.4
+  range: 150
+  targetAir: true
+  circleTarget: true
+  faceTarget: false
+  trailLength: 16
+  trailColor: A9D8FFFF
+  weapons: [
+    {
+        minShootVelocity: 1.5
+		x: 0
+		y: 0
+			shoot: {
+		shots: 7
+		shotDelay: 5
+			       }
+		reload: 360
+		ignoreRotation: true
+		mirror: false
+		rotate: false
+		shootCone: 120
+		shootSound: plasmadrop
+		xRand: 8
+		bullet: {
+		type: BasicBulletType
+		layer: 100
+		width: 9
+		height: 15
+		collides: false
+		collidesAir: false
+		sprite: exogenesis-energy-partical
+		hitSound: plasmaboom
+		hitShake: 3
+		trailLength: 10
+		trailWidth: 2
+		trailColor: 66B1FFFF
+		speed: 0.7
+		drag: 0.03
+		lifetime: 30
+		shrinkY: 0.7
+		shrinkX: 0.7
+		status: freezing
+		statusDuration: 100
+		damage: 480
+		splashDamageRadius: 35
+		splashDamage: 50
+		shootEffect: none
+		smokeEffect: none
+		despawnEffect: none
+		spin: 3
+        hitEffect: {
+          type: multiEffect
+          effects: [
+            {
+              type: ParticleEffect
+              line: true
+              particles: 7
+              lifetime: 20
+              offset: 50
+              length: 65
+              cone: -360
+              lenFrom: 6
+              lenTo: 0
+              colorFrom: A9D8FFFF
+              colorTo: 66B1FFFF
+            }
+            {
+              type: ParticleEffect
+              particles: 1
+              sizeFrom: 25
+              sizeTo: 0
+              length: 0
+              lightColor: 73FFAEFF
+              lifetime: 30
+              layer: 109
+              region: exogenesis-star
+              colorFrom: A9D8FFFF
+              colorTo: 66B1FFFF
+            }
+            {
+              type: ParticleEffect
+              particles: 1
+              sizeFrom: 10
+              sizeTo: 0
+              length: 0
+              lightColor: 73FFAEFF
+              lifetime: 30
+              layer: 109
+              region: exogenesis-star
+              colorFrom: FFFFFFF
+              colorTo: FFFFFFF
+            }
+          ]
+        }
+        width: 37
+        height: 37
+        lifetime: 30
+        frontColor: FFFFFFF
+        mixColorTo: A9D8FFFF
+        backColor: 66B1FFFF
+      }
+    }
+  ]

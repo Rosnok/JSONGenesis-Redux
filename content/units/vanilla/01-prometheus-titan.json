@@ -1,6 +1,6 @@
 {
 "localizedName": "T1-RF Prometheus",
-"description": "An expermental super weapon developed by malis. You've gained access to the [#ffb98b]Rolling Rortress Titan[]",
+"description": "An experimental superweapon developed by [#9681fb]Malis[]. You have gained access to the [#ffb98b]Rolling Fortress Titan[].",
 "researchCostMultiplier": 0.1,
 "research": {
 "parent": "titan-assembler",

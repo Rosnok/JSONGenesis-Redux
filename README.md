@@ -1,6 +1,6 @@
 # Exogenesis
 
-My discord "aureusaltirius"
+My discord AureusAltirius#6109
 
 the discord server https://discord.gg/RE9dNUzBVh
 
@@ -15,21 +15,41 @@ alot of stuff
 
 ## Mod races/factions
 
-Exogenesis contains four different races each with their own lore, weapons, defense, and units.
+Exogenesis contains five different races each with there own lore, weapons, defense, and units.
 
 `Credits to Đuvent for making both the lore of the factions and the two attack maps`
 
-`Genesux`: 
-"In the 'Siravax System', they reside on the sub-zero temperature planet called 'Siratla'. Other planets in the system, comprised of Siratla Stone and Crystals, include Ruxt. Vantax is a Gas Planet. These three specific planets also have multiple satellites (moons) surrounding them. The star is Siravax, and the Genesux are composed of cold energy and Siratla stone. They are a type of lithoids, strong beings. Their weapons and creations are made out of metal materials formed from various metals and cold energy. Little is understood of their goal, but it seems like nothing is going to stop them from achieving it."
+`Genesux`: In the "Siravax System" they lay in the sub-zero temperature planet called "Siratla", other planets in the
+system that are comrpised of Siratla Stone and Crystals is Ruxt, While Vantax is a Gas Planet, these three specific
+planets also have multiple satelites(moons) surrounding them, the star is Siravax and the Genesux are comprised of cold
+energy and Siratla stone, They are a type of lithiods, these beings and are strong, their weapons and creations are made
+out of metal material formed from various metals and cold energy. Little is understood of there goal, but it seems like
+nothing is gonna stop them from achieving it.
 
-`Solran`: 
-These lithoid lifeforms are almost the opposite of the Genesux, as they are extremely hot/molten and possess capabilities beyond this galaxy. They are found in the "Alphandax System," which presents an astronomical question, as it is a Binary System with Alphandax and Betanax, yet planets orbit around them. Moving on to these creatures, they are comprised of molten rock and material obtained from beneath the volcanoes and lava oceans of their planet, Volceru. They acquire titanium and multiple igneous rocks, fusing them together to create a robust material used to form their formidable monsters. Other satellites/planets in this Binary System include Furnius and Siten.
+`Solran`: These lithiod lifeforms are almost an Opposition of the Genesux since they are extremely hot/molten and have
+capabilities out of this galaxy, they are found in the "Alphandax System", which is an astronomical question, since this
+is a Binary System with Alphandax and Betanax, but there are planets orbiting, anyways moving on we have these
+creatures, they are comprised of molten rock and material they get from under the volcanos and lava oceans of there
+planet Volceru, they get titanium and multiple igna-rocks and they fuse them together to get a strong material that they
+use to form their absolute monsters, other satelites/planets in this Binary System include, Furnius and Siten.
 
-`Elecian`: 
-They are found in the "Vanstarius System," residing on a gassy planet with three out of four satellites. Other planets in this system also have satellites: Ravu and Duris. Although Duris and Mineus lack satellites, we will still include them. The Elecians are monsters of destruction and show no mercy. Their technology is highly advanced and unmatched in their willingness to fight. They are very strong and can deliver a powerful blow, whether you have walls or not. The materials they use are unknown and are likely an alloy made from titanium and other substances.
+`Elecian`: They are found in the "Vanstarius System", they live on a gassy planet with 3/4 satelites, other planets in
+this system also have satelites, the other planets are, Ravu, Duris. Mineus, although Duris and Mineus dont have
+satelites we will still include them, the Eleciams are monsters at destruction and show no mercy, their technology are
+very advanced and are un-matched in there will to fight, they are very strong and can pack quite a punch, wether you
+have walls or not, the material that they use are unknown and are probably an alloy made out of titanium and some other
+material.
 
-`Quantra`: 
-These peaceful aquatic plant creatures are found in the "Lumian System." They aren't observed as much as the others but have developed both underwater and on islands and shores. They inhabit a radioactive biome within an ocean, somehow obtaining materials to craft several naval weapons. They also invent other weapons capable of devastating everything around them.
+`Terretux`: deep Bootes Void, in galaxy long dead there lies a fallen empire, destroyed by a cataclysmic event.
+Astronomeers from Serpulo call it the "Forgotten empire", this species originated from the "Erten system", with planets
+surrounding it such as Xeantra and Celtus, They are powered by Pure Dark Energy and an unknown form of energy, they use
+their strong and strange materials to create weapons and technology yet understood. What had happen to this great
+empire?.
+
+`Quantra`: These peaceful, Aquatic Plant Creatures are found in the "Lumian System", they arent observed as much as the
+others but have developed underwater and on islands and shores, they live in an radioactive biome of an ocean, they
+somehow get their materials to make several naval weapons, they will also invent other weapons that devastate
+everything.
 
 ## Screenshots
 

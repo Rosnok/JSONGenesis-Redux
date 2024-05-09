@@ -6,13 +6,13 @@
   "liquidCapacity": 800,
   "size": 9,
   "lightColor": "B3F7FFFF",
-  "baseExplosiveness": 90000000,
-  "explosionRadius": 70000,
-  "explosionDamage": 90000000,
+  "baseExplosiveness": 30000000,
+  "explosionRadius": 23000,
+  "explosionDamage": 30000000,
   "hasLiquids": true,
-  "powerProduction": 1000,
+  "powerProduction": 475,
   "warmupSpeed": 0.0006,
-  "itemDuration": 500,
+  "itemDuration": 400,
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -38,7 +38,7 @@
       "terrilium/15"
     ],
     "liquids": [
-      "exogenesis-axinian/0.3"
+      "exogenesis-cold-plasma/0.6"
     ]
   },
   "requirements": [

@@ -4,7 +4,7 @@
   "radioactivity": 3,
   "color": "73FFAEFF",
   "research": {
-    "parent": "surge-alloy",
+    "parent": "valvanite",
     "requirements": [
       "valvanite/150"
     ]

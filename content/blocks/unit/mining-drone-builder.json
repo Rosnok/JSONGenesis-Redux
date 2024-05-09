@@ -9,7 +9,9 @@
     {
       "unit": "drone-m",
       "requirements": [
-        "silicon/80"
+        "silicon/50",
+		"lead/60",
+		"astrolite/50"
       ],
       "time": 300
     },
@@ -38,5 +40,5 @@
     }
   ],
   "category": "units",
-  "research": "team-genesux"
+  "research": "GenFactory"
 }

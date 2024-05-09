@@ -1,0 +1,129 @@
+type: ItemTurret
+size: 4
+health: 1580
+targetAir: false
+reload: 86
+range: 370
+minRange: 50
+recoil: 5
+shake: 3
+ammoEjectBack: 5
+ammoUseEffect: casing3Double
+ammoPerShot: 2
+inaccuracy: 10
+velocity: 3
+velocityRnd: 0.2
+shoot: {
+	type: ShootSpread
+	spread: 0
+	shots: 8
+}
+rotateSpeed: 1.2
+shootSound: artillery
+                ammoTypes: {	
+                    graphite: {
+                    type: ArtilleryBulletType
+					speed: 3.6
+                    knockback: 0.8
+                    lifetime: 80
+                    width: 13
+					height: 13
+                    collidesTiles: false
+                    splashDamageRadius: 24
+                    splashDamage: 58
+                    }			
+                    silicon: {
+				    type: ArtilleryBulletType
+					speed: 3.6
+                    knockback: 1
+                    lifetime: 80
+                    width: 13
+					height: 13
+                    collidesTiles: false
+                    splashDamageRadius: 24
+                    splashDamage: 58
+                    reloadMultiplier: 1.4
+                    ammoMultiplier: 3
+                    homingPower: 0.1
+                    homingRange: 62
+                    }	
+                    pyratite: {
+					type: ArtilleryBulletType
+					speed: 3.6
+                    hitEffect: blastExplosion
+                    knockback: 1
+                    lifetime: 80
+                    width: 15
+					height: 15
+                    collidesTiles : false
+                    splashDamageRadius: 24
+                    splashDamage: 71
+                    status: burning
+                    statusDuration: 720
+                    frontColor: f8ad42
+                    backColor: f6e096
+                    makeFire: true
+                    trailEffect: incendTrail
+                    ammoMultiplier: 3
+                    }	
+                    blast-compound: { 
+					type: ArtilleryBulletType
+					speed: 3.6
+                    hitEffect: blastExplosion
+                    knockback: 1.2
+                    lifetime: 80
+                    width: 18
+					height: 18
+                    collidesTiles: false
+                    ammoMultiplier: 4
+                    splashDamageRadius: 57
+                    splashDamage: 81
+                    backColor: ffd2ae
+                    frontColor: e58956
+                    status: blasted
+                    }	
+                    plastanium: { 
+					type: ArtilleryBulletType
+					speed: 3.6
+                    hitEffect: plasticExplosion
+                    knockback: 1
+                    lifetime: 80
+                    width: 16
+					height: 16
+                    collidesTiles: false
+                    splashDamageRadius: 33
+                    splashDamage: 58
+					backColor: d8d97f
+                    frontColor: fffac6
+                    fragBullets: 10
+					fragBullet: {
+					type: BasicBulletType
+                    width: 14
+                    height: 14
+                    shrinkY: 1
+                    lifetime: 25
+                    backColor: d8d97f
+                    frontColor: fffac6
+                    despawnEffect : none
+                    collidesAir: false
+                    }
+                  }
+				}
+category: turret
+research: {
+parent: ripple
+}
+consumes: {
+coolant: { 
+amount: 0.5
+}
+}
+coolantMultiplier: 0.9
+requirements: [
+	titanium/500
+	thorium/470
+	plastanium/350
+	osmium/600
+	silicon/440
+]
+

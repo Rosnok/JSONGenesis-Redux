@@ -1,7 +1,7 @@
 {
   "type": "Wall",
   "buildCostMultiplier": 0.1,
-  "health": 18000,
+  "health": 10800,
   "armor": 40,
   "size": 3,
   "requirements": [

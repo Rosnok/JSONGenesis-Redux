@@ -1,15 +1,18 @@
 {
   "type": "PowerNode",
   "size": 1,
-  "health": 50,
-  "laserRange": 6,
-  "maxNodes": 5,
+  "health": 85,
+  "laserRange": 9,
+  "maxNodes": 13,
   "hasPower": true,
   "laserColor2": "74C2E8FF",
   "category": "power",
   "requirements": [
-    "lead/5",
-    "astrolite/1"
+    "copper/15",
+    "lead/15",
+	"silicon/15",
+    "astrolite/15",
+	"stellar-steel/10"
   ],
   "research": "genesis-central"
 }

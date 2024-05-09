@@ -223,7 +223,10 @@
     "silicon/5000",
     "osmium/3000"
   ],
-  "envRequired": 0,
+  "envRequired": 1,
+  "envEnabled": 1,
+  "envDisabled": 16
+  "research": "b-metaglass-forge",
   "category": "crafting",
   "outputItem": "blue-titan-alloy/2"
 }

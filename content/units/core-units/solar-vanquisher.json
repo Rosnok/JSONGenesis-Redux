@@ -51,13 +51,21 @@
     "continuous": true,
     "bullet": {
      "type": "ContinuousFlameBulletType",
-    "colors": ["e71507AA", "ff8517ff", "ffda5bff", "fffeebff"],
+            "colors": [
+          "ed1e27aa",
+          "d70a0a90",
+          "ff7048",
+          "ffcea0",
+          "FFFFFFFF"
+        ],
     "flareWidth": 5.5,
     "flareLength": 28,
-    "flareColor": "ff8517ff",
+    "flareColor": "FF5845FF",
     "damage": 30,
-    "collidesTiles": false,
+	"buildingDamageMultiplier": 0.10,
     "pierceArmor": true,
+    "pierceCap": 3,
+    "divisions": 20,
     "width": 6,
      "hitEffect": {
     "type": "ParticleEffect",
@@ -73,12 +81,11 @@
     "colorFrom": "ffda5bff",
     "colorTo": "ff8517ff"
     },
-    "divisions": 20,
-    "length": 130,
+    "length": 85,
     "drawSize": 350,
-    "lifetime": 220,
+    "lifetime": 15,
     "status": "melting",
-    "statusDuration": 150
+    "statusDuration": 80
     }
 	}
  ]

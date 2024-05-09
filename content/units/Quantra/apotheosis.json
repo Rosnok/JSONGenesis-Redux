@@ -21,20 +21,36 @@
   "trailScl": 5.8,
   "trailLength": 150.0,
   "immunities": [
-    "tarred",
-    "melting",
-    "corroded",
-    "freezing",
-    "blasted",
-    "slow",
-    "burning",
-    "wet",
-    "muddy",
-    "sapped",
-    "disarmed",
-    "shocked",
-    "electrified",
-    "spore-slowed"
+	"exogenesis-xegon-fier",
+	"exogenesis-system-crash",
+	"exogenesis-molten1",
+	"exogenesis-low-energy",
+	"exogenesis-irradiated",
+	"exogenesis-high-energy-blast",
+	"exogenesis-division",
+	"exogenesis-crystallization",
+	"exogenesis-apotheosis-presence",
+	"exogenesis-acidic",
+	"exogenesis-hydrogen-flash",
+	"exogenesis-plasma-vaporisation",
+	"exogenesis-nuclear-toxicity",
+	"exogenesis-octane-blast",
+    "exogenesis-high-energy-blast",
+	"burning", 
+	"wet",
+	"slow",
+	"sapped",
+	"shocked",
+	"freezing",
+	"corroded",
+	"tarred",
+	"muddy",
+	"spore-slowed",
+	"blasted",
+	"disarmed",
+	"electrified",
+	"melting",
+	"slow"
   ],
   "weapons": [
     {
@@ -419,6 +435,8 @@
       "continuous": true,
       "bullet": {
         "chargeEffect": {
+			"followParent": true,
+			"rotWithParent": true,
           "type": "multiEffect",
           "lifetime": 120,
           "effects": [
@@ -793,7 +811,7 @@
       "spawnX": 0,
       "spawnY": 55,
       "unit": "crystal-drone-healer",
-      "spawnTime": 50
+      "spawnTime": 300
     },
     {
       "type": "mindustry.entities.abilities.RepairFieldAbility",

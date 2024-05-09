@@ -1,6 +1,6 @@
 {
   "localizedName": "Acid",
-  "description": "Radioactive water, not much different from water its just not drinkable",
+  "description": "A dangerous, caustic liquid.",
   "isLiquid": true,
   "cache": "water",
   "effect": "exogenesis-acidic",

@@ -4,9 +4,9 @@
   "charge": 0.3,
   "color": "A9D8FFFF",
   "research": {
-    "parent": "surge-alloy",
+    "parent": "terrilium",
     "requirements": [
-      "surge-alloy/200"
+      "terrilium/200"
     ]
   }
 }

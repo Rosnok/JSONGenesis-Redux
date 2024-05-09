@@ -1,6 +1,6 @@
 {
 "localizedName": "T3-SS Nemesis",
-"description": "An expermental super weapon developed by malis. You've gained access to the [#bf92f9]Suppresion Support Titan[]",
+"description": "An experimental superweapon developed by [#9681fb]Malis[]. You have gained access to the [#bf92f9]Suppression Support Titan[]",
 "researchCostMultiplier": 0.1,
 "research": {
 "parent": "titan-assembler",

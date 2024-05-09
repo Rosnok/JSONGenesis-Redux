@@ -1,7 +1,7 @@
 {
 "localizedName": "T1-RF Prometheus",
-"description": "The [#ffb98b]Rolling fortress titan[]. The [#ffb98b]T2-RF Prometheus[] is a heavy duty seige unit with thick armoring and high health. main gun is large railgun capable of pirecing structures and units and is armed with four mounted cannons which fire artiliry at enemies and structures. very slow.",
-"details": "One of the first of the erkeir titans developed by [#9681fb]Malis[] in response to something being discovered on Erekir.",
+"description": "The [#ffb98b]Rolling Fortress Titan[]. The [#ffb98b]T2-RF Prometheus[] is a heavy duty siege unit with thick armoring and high health. Its main gun is a large railgun capable of piercing structures and units, and is armed with four mounted artillery cannons that fire at enemies and structures. Quite sluggish.",
+"details": "One of the first of the Erekir Titans developed by [#9681fb]Malis[], in response to something being discovered on Erekir.",
 "type": "tank",
 "template": "ErekirUnitType",
 "research": {

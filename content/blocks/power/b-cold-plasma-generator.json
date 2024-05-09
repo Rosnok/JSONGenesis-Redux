@@ -1,13 +1,13 @@
 {
   "type": "ConsumeGenerator",
   "researchCostMultiplier": 0.2,
-  "localizedName": "Cold plasma generator",
-  "description": "Uses cold plasma to generate power",
+  "localizedName": "Cold Plasma Generator",
+  "description": "Uses cold plasma to generate power.",
   "displayEfficiency": false,
   "minEfficiency": 1,
   "health": 1400,
   "size": 2,
-  "powerProduction": 3.5,
+  "powerProduction": 3.75,
   "liquidCapacity": 65,
   "drawer": {
     "type": "DrawMulti",
@@ -40,13 +40,14 @@
   },
   "consumes": {
     "liquids": [
-      "exogenesis-cold-plasma/0.18"
+      "exogenesis-cold-plasma/0.009"
     ]
   },
   "requirements": [
-    "silicon/600",
-    "stellar-steel/500",
-    "lead/600"
+    "copper/45",
+    "silicon/35",
+    "astrolite/50",
+    "lead/45"
   ],
   "envRequired": 0,
   "category": "power",
