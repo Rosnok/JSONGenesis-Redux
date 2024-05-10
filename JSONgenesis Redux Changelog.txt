@@ -1,0 +1,60 @@
+Changes from last JSONgenesis version:
+
+v0.1
+
+Reworked alot of descriptions to be more coherent and concise, and fixing various typographical & grammatical errors. Most lore elements have been moved into details. 
+Fixed Halley beam sound not playing properly
+Fixed Stellar firing sound not playing properly
+Renamed Neutron Mortar to Pulsar 
+Renamed Plasma Expeller to Aurora
+Renamed Cold Plasmathrower to Ganymede
+Renamed "Battery missile" to Muon.
+Renamed Discharge to Meson.
+Renamed Uprise to Ruination.
+Renamed Fear to Herald. Now also given proper heat texture.
+Renamed Dread to Wraith. Tweaked it's stats a bit. Gave it a different firing sound to differentiate its firepower.
+Uprise (now aka Ruination) & Breakthrough firing sounds have been modified to be in line with their firing time.
+Boss units (Avetronox, Apotheosis, Jorturm, Ryvatas) now have immunities to most modded debuffs. (Note, modded part only encompasses Exogenesis status effects.)
+Tweak Avetronox weapon sounds a bit.
+Gave Weld (Fuse upgrade) a proper description.
+Rebalanced Cold Plasma Generator to be more appropriate to its own tier.
+Advancer Reconstructor sprite fixed, resized to fit previous reconstructor's size. Renamed into Hexative Reconstructor.
+Resprited three T1 factories (Genesux, Elecian, Quantra), sprites made using Soletux' factory
+Removed Axinian Gas and structures that used it now use Cold Plasma instead, albeit at a higher rate.  
+"Placeholder" Reconstructor sprite fixed. Renamed into Pentative Reconstructor.
+Jupiteium Reactor and Neutron Reactor now properly generates power.
+Forebode sprite fixed and recolored to be inline with Foreshadow-like turrets, and been given proper appropriate sized point bullet effect.
+Radically resprited and rebalanced Barrage. Given heat texture.
+Fixed missing material texture of Goliath Drill.
+Fix Pine and Ignition turret sprite sizes. Resprited. Renamed Pine to Herder.
+Genesux Mining Drone Factory has been renamed and resprited. Moved to after Genesux Factory in tech tree.
+Renamed Mining Drone 1 to Triton, and Mining Drone 2 to Charon. Slightly tweaked stats of drones.
+Gave Nadir's main gun a proper charging sound.
+War (aka Ryvatas) has its new unfinished sprite and new stats replaced by an old version of War from previous versions. Fixed chargeup effect.
+Revamped Balaenoptera's main gun a bit. Now it fires actually bigger projectile suited to it's main gun's size and it's firing effects have been changed. Projectile fragments reduced damage by 50% but fragments increased amount by 50%.
+Balaenoptera's full image has been remade to match up with current sprite.
+Renamed Balaenoptera to Rorqual.
+Restored the Rumble from the old versions, an upgrade to the Ripple.
+Restored the Enforcer from the old versions, an upgrade to the Lancer, now rebalanced and resprited. Now fires 3 Lancer-like beams in succession instead of rapidly firing point bullets.
+Orion's full image has been remade to match up with current sprite.
+Removed Orbit & Comet turrets. (Reason: Wholly underpowered turrets that just bloat up the selection.)
+Removed unfinished Soletux Volcanic tank
+Fixed Prometheus titan research icon.
+Renamed Toxicity to Therid. Main gun now has charging sound, and acid guns now have a firing sound.
+Fornax' big guns now have glowy bits and has now 25 degrees of rotation.
+Fixed Tyrannical Outburst status effect icon.
+Fixed Acidic (now called Acid Burn) status effect icon.
+Restored the "lost" Hyperion Titan from the 2.4 branch of Exogenesis github repo. Made it buildable in the Titan Assembler as a Tier 3 Titan Unit.
+Fixed Bellatrix and Orion not being shown in Auvathia Reconstructor
+Tweaked the sizes & colors of Placeholder (Pentative) Reconstructor & Auvathia Reconstructor so it fits the previous tiers.
+Tweaked the color of Ravthian Reconstructor a bit.
+Fixed Huge Primordium Wall having wrong health.
+Rebalanced Genesis Nodes to be more expensive but more useful than regular vanilla Power Nodes.
+Removed Calamity Energy Cell as it isn't used for anything.
+Rebalanced Cold Energy Fuser a bit, now outputs 2 but now requires 3 titanium. Also reduced hydrogen usage.
+Moved faction-specific materials into their own respective factions. (Lumianite to Quantra, Siravaxa Metal to Genesux, Primordium Iron and Annhihilation Crystal to Soletux)
+Moved Turbulence into Quantra Tech Tree, after Gluon
+Moved Ruiner and Ravager from Serpulo Tech Tree into Elecian Tech tree, Catastrophe moved to after Ravager.
+Fixed Hades missing turret base texture, glow textures and heat textures. Fixed Serpulo resources being in its build cost.
+Moved Forge of Annihilation to Soletux Tech Tree. Fixed Serpulo resources being in its build cost and inputs, now it appears in Erekir. 
+Solar Vanquisher attack has been tweaked. It can now attack buildings, however with a -90% damage multiplier, and attack range is decreased.
