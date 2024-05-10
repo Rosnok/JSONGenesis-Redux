@@ -199,19 +199,19 @@
       parts: [
         {
           type: RegionPart
-          suffix: -barrel
-          outlineLayerOffset: 0.001
-          layerOffset: -0.002
+          suffix: -cannon
+          outlineLayerOffset: 0
+          layerOffset: 0
           moveY: -12
           y: 15
           parts: [
             {
               type: RegionPart
-              colorTo: ff0000AA
-              color: ff0000AA
+              colorTo: FF0000AA
+              color: FF0000AA
               progress: reload
               blending: additive
-              layerOffset: 0.002
+              layerOffset: 0
               outline: false
               suffix: -barrel-glow
             }
@@ -226,8 +226,8 @@
         }
         {
           type: RegionPart
-          colorTo: ff0000AA
-          color: ff0000AA
+          colorTo: F3E97900
+          color: F3E979FF
           progress: reload
           blending: additive
           layerOffset: 0.002
@@ -240,7 +240,7 @@
       inaccuracy: 3
       shotDelay: 5
       shootSound: rorqual_cannon_fire
-      ejectEffect: casing3Double
+      ejectEffect: none
       bullet: {
         type: basicBulletType
         hitEffect: massiveExplosion
@@ -248,42 +248,39 @@
         {
           length: 0
           lifetime: 35
-		  offsetY: 180
+		  offset: 180
+		  offsetY: 0
 		  offsetX: 30
           region: exogenesis-al-shootspike
           colorTo: e58956
           sizeFrom: 45
-          sizeTo: 0
         }
         {
           length: 0
-          offset: -215
+          offset: -210
 		  offsetX: 30
           lifetime: 35
           region: exogenesis-al-shootspike
           colorTo: e58956
           sizeFrom: 40
-          sizeTo: 0
         }
         {
           length: 0
-          offset: 215
+          offset: 210
 		  offsetX: 30
           lifetime: 35
           region: exogenesis-al-shootspike
           colorTo: e58956
           sizeFrom: 40
-          sizeTo: 0
         }
         {
           length: 0
           cone: 0
-		  offsetX: 30
+		  offsetX: 25
           lifetime: 45
           region: exogenesis-al-diamond-thin
           colorTo: e58956
           sizeFrom: 45
-          sizeTo: 0
         }
       ]
               smokeEffect: [
