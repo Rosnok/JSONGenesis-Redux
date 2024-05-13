@@ -134,21 +134,21 @@
   allowLegStep: true
   hovering: true
   immunities: [
-	exogenesis-xegon-fier
-	exogenesis-system-crash
-	exogenesis-molten1
-	exogenesis-low-energy
-	exogenesis-irradiated
-	exogenesis-high-energy-blast
-	exogenesis-division
-	exogenesis-crystallization
-	exogenesis-apotheosis-presence
-	exogenesis-acidic
-	exogenesis-hydrogen-flash
-	exogenesis-plasma-vaporisation
-	exogenesis-nuclear-toxicity
-	exogenesis-octane-blast
-    exogenesis-high-energy-blast
+	jsongenesis-xegon-fier
+	jsongenesis-system-crash
+	jsongenesis-molten1
+	jsongenesis-low-energy
+	jsongenesis-irradiated
+	jsongenesis-high-energy-blast
+	jsongenesis-division
+	jsongenesis-crystallization
+	jsongenesis-apotheosis-presence
+	jsongenesis-acidic
+	jsongenesis-hydrogen-flash
+	jsongenesis-plasma-vaporisation
+	jsongenesis-nuclear-toxicity
+	jsongenesis-octane-blast
+    jsongenesis-high-energy-blast
 	burning 
 	wet
 	slow
@@ -180,7 +180,7 @@
       shootCone: 180
       bullet: {
         type: basicBulletType
-        spawnUnit: exogenesis-heavy-gen-missile
+        spawnUnit: jsongenesis-heavy-gen-missile
       }
     }
     {
@@ -197,7 +197,7 @@
       shootCone: 180
       bullet: {
         type: basicBulletType
-        spawnUnit: exogenesis-heavy-gen-missile
+        spawnUnit: jsongenesis-heavy-gen-missile
       }
     }
     {
@@ -213,7 +213,7 @@
       shootCone: 180
       bullet: {
         type: basicBulletType
-        spawnUnit: exogenesis-heavy-gen-missile
+        spawnUnit: jsongenesis-heavy-gen-missile
       }
     }
     {
@@ -236,7 +236,7 @@
         type: BasicBulletType
         width: 10
         height: 17
-        sprite: exogenesis-pointy-bullet
+        sprite: jsongenesis-pointy-bullet
         frontColor: FFFFFF
         backColor: 66B1FFFF
         lifetime: 80
@@ -266,7 +266,7 @@
               sizeTo: 0
               length: 0
               layer: 114
-              region: exogenesis-plasma-back
+              region: jsongenesis-plasma-back
               interp: swing
               lifetime: 50
               colorFrom: 000000FF
@@ -332,7 +332,7 @@
         type: BasicBulletType
         width: 10
         height: 17
-        sprite: exogenesis-pointy-bullet
+        sprite: jsongenesis-pointy-bullet
         frontColor: FFFFFF
         backColor: 66B1FFFF
         lifetime: 80
@@ -362,7 +362,7 @@
               sizeTo: 0
               length: 0
               layer: 114
-              region: exogenesis-plasma-back
+              region: jsongenesis-plasma-back
               interp: swingIn
               lifetime: 50
               colorFrom: 000000FF
@@ -465,7 +465,7 @@
           length: 0
           lifetime: 30
           interp: swingIn
-          region: exogenesis-spikething
+          region: jsongenesis-spikething
           offsetX: 3
           sizeFrom: 13
           sizeTo: 1
@@ -498,7 +498,7 @@
               lightColor: 73FFAEFF
               lifetime: 30
               layer: 109
-              region: exogenesis-star
+              region: jsongenesis-star
               colorFrom: A9D8FFFF
               colorTo: 66B1FFFF
             }
@@ -511,7 +511,7 @@
               lightColor: 73FFAEFF
               lifetime: 30
               layer: 109
-              region: exogenesis-star
+              region: jsongenesis-star
               colorFrom: FFFFFFF
               colorTo: FFFFFFF
             }
@@ -580,7 +580,7 @@
           length: 0
           lifetime: 30
           interp: swingIn
-          region: exogenesis-spikething
+          region: jsongenesis-spikething
           offsetX: 3
           sizeFrom: 13
           sizeTo: 1
@@ -613,7 +613,7 @@
               lightColor: 73FFAEFF
               lifetime: 30
               layer: 109
-              region: exogenesis-star
+              region: jsongenesis-star
               colorFrom: A9D8FFFF
               colorTo: 66B1FFFF
             }
@@ -626,7 +626,7 @@
               lightColor: 73FFAEFF
               lifetime: 30
               layer: 109
-              region: exogenesis-star
+              region: jsongenesis-star
               colorFrom: FFFFFFF
               colorTo: FFFFFFF
             }
@@ -1252,7 +1252,7 @@
               lifetime: 350
               clip: 8192
               spin: -2
-              region: exogenesis-blackhole-disk-last
+              region: jsongenesis-blackhole-disk-last
               interp: swingIn
               sizeFrom: 215
               sizeTo: 0
@@ -1266,7 +1266,7 @@
               lifetime: 350
               clip: 8192
               spin: -3.3
-              region: exogenesis-blackhole-disk-last
+              region: jsongenesis-blackhole-disk-last
               interp: swingIn
               sizeFrom: 175
               sizeTo: 0
@@ -1280,7 +1280,7 @@
               lifetime: 340
               clip: 8192
               spin: -5
-              region: exogenesis-blackhole-disk-secondary
+              region: jsongenesis-blackhole-disk-secondary
               interp: swingIn
               sizeFrom: 165
               sizeTo: 0
@@ -1294,7 +1294,7 @@
               lifetime: 340
               clip: 8192
               spin: -8
-              region: exogenesis-blackhole-disk-main
+              region: jsongenesis-blackhole-disk-main
               interp: swingIn
               sizeFrom: 150
               sizeTo: 0
@@ -1357,7 +1357,7 @@
               length: 0
               layer: 114
               clip: 8192
-              region: exogenesis-plasma-back
+              region: jsongenesis-plasma-back
               interp: swingIn
               lifetime: 350
               colorFrom: 000000FF
@@ -1402,7 +1402,7 @@
             lightningLength: 15
             lightningLengthRand: 46
             lightningColor: 66B1FFFF
-            status: exogenesis-high-energy-blast
+            status: jsongenesis-high-energy-blast
             statusDuration: 200
             splashDamage: 60
             splashDamageRadius: 250
@@ -1485,7 +1485,7 @@
                 length: 0
                 interp: swingIn
                 spin: 7
-                region: exogenesis-energy-partical-back
+                region: jsongenesis-energy-partical-back
                 sizeFrom: 20
                 sizeTo: 0
                 colorFrom: A9D8FFFF

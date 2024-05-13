@@ -251,7 +251,7 @@
 		  offset: 180
 		  offsetY: 0
 		  offsetX: 30
-          region: exogenesis-al-shootspike
+          region: jsongenesis-al-shootspike
           colorTo: e58956
           sizeFrom: 45
         }
@@ -260,7 +260,7 @@
           offset: -210
 		  offsetX: 30
           lifetime: 35
-          region: exogenesis-al-shootspike
+          region: jsongenesis-al-shootspike
           colorTo: e58956
           sizeFrom: 40
         }
@@ -269,7 +269,7 @@
           offset: 210
 		  offsetX: 30
           lifetime: 35
-          region: exogenesis-al-shootspike
+          region: jsongenesis-al-shootspike
           colorTo: e58956
           sizeFrom: 40
         }
@@ -278,7 +278,7 @@
           cone: 0
 		  offsetX: 25
           lifetime: 45
-          region: exogenesis-al-diamond-thin
+          region: jsongenesis-al-diamond-thin
           colorTo: e58956
           sizeFrom: 45
         }

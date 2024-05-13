@@ -24,21 +24,21 @@ speed: 0.7
 // "commandLimit": 11,
 
 immunities: [
-	"exogenesis-xegon-fier",
-	"exogenesis-system-crash",
-	"exogenesis-molten1",
-	"exogenesis-low-energy",
-	"exogenesis-irradiated",
-	"exogenesis-high-energy-blast",
-	"exogenesis-division",
-	"exogenesis-crystallization",
-	"exogenesis-apotheosis-presence",
-	"exogenesis-acidic",
-	"exogenesis-hydrogen-flash",
-	"exogenesis-plasma-vaporisation",
-	"exogenesis-nuclear-toxicity",
-	"exogenesis-octane-blast",
-    "exogenesis-high-energy-blast",
+	"jsongenesis-xegon-fier",
+	"jsongenesis-system-crash",
+	"jsongenesis-molten1",
+	"jsongenesis-low-energy",
+	"jsongenesis-irradiated",
+	"jsongenesis-high-energy-blast",
+	"jsongenesis-division",
+	"jsongenesis-crystallization",
+	"jsongenesis-apotheosis-presence",
+	"jsongenesis-acidic",
+	"jsongenesis-hydrogen-flash",
+	"jsongenesis-plasma-vaporisation",
+	"jsongenesis-nuclear-toxicity",
+	"jsongenesis-octane-blast",
+    "jsongenesis-high-energy-blast",
 	"burning", 
 	"wet",
 	"slow",
@@ -84,7 +84,7 @@ weapons: [
 	
 	bullet: { 
 		"type": "LaserBulletType",
-		"status": "exogenesis-surge-charge",
+		"status": "jsongenesis-surge-charge",
 		"statusDuration": 100,
 		"length": 300,
 		"damage": 1500,
@@ -226,7 +226,7 @@ weapons: [
 	bullet: {
 		"keepVelocity": false,
 		"type": "MissileBulletType",
-		"sprite": "exogenesis-warhead",
+		"sprite": "jsongenesis-warhead",
 		"shootEffect": "explosion",
 		
 		hitEffect: {
@@ -350,7 +350,7 @@ weapons: [
 				"sizeTo": 2,
 				"length": 0,
 				"lifetime": 30,
-				"region": "exogenesis-wide",
+				"region": "jsongenesis-wide",
 				"colorFrom": "F3E979FF",
 				"colorTo": "D99F6BFF"
 			},
@@ -361,7 +361,7 @@ weapons: [
 				"sizeTo": 2,
 				"length": 0,
 				"lifetime": 30,
-				"region": "exogenesis-tall",
+				"region": "jsongenesis-tall",
 				"colorFrom": "F3E979FF",
 				"colorTo": "D99F6BFF"
 			}
@@ -426,7 +426,7 @@ weapons: [
 				"baseLength": 30,
 				"interp": "circleOut",
 				"cone": 360,
-				"region": "exogenesis-shape2",
+				"region": "jsongenesis-shape2",
 				"colorFrom": "F3E979FF",
 				"colorTo": "F3E979FF",
 				"sizeFrom": 5,
@@ -470,7 +470,7 @@ weapons: [
 				"baseLength": 30,
 				"interp": "circleOut",
 				"cone": 360,
-				"region": "exogenesis-shape2",
+				"region": "jsongenesis-shape2",
 				"colorFrom": "F3E979FF",
 				"colorTo": "F3E979FF",
 				"sizeFrom": 5,
@@ -495,7 +495,7 @@ weapons: [
 		
 		fragBullet: {
 			"type": "BasicBulletType",
-			"sprite": "exogenesis-peircer",
+			"sprite": "jsongenesis-peircer",
 			"speed": 5,
 			"trailColor": "F3E979FF",
 			"trailParam": 5,
@@ -560,7 +560,7 @@ weapons: [
 				"interp": "pow3In",
 				"sizeInterp": "pow5Out",
 				"lifetime": 110,
-				"region": "exogenesis-shape2",
+				"region": "jsongenesis-shape2",
 				"colorFrom": "F3E97900",
 				"colorTo": "F3E979FF"
 			},
@@ -575,7 +575,7 @@ weapons: [
 				"interp": "pow3In",
 				"sizeInterp": "pow5Out",
 				"lifetime": 100,
-				"region": "exogenesis-shape2",
+				"region": "jsongenesis-shape2",
 				"colorFrom": "F3E97900",
 				"colorTo": "F3E979FF"
 			},
@@ -590,7 +590,7 @@ weapons: [
 				"interp": "pow3In",
 				"sizeInterp": "pow5Out",
 				"lifetime": 90,
-				"region": "exogenesis-shape2",
+				"region": "jsongenesis-shape2",
 				"colorFrom": "F3E97900",
 				"colorTo": "F3E979FF"
 			},
@@ -655,7 +655,7 @@ weapons: [
 				"length": 0,
 				"interp": "bounceOut",
 				"lifetime": 125,
-				"region": "exogenesis-wide",
+				"region": "jsongenesis-wide",
 				"colorFrom": "D99F6BFF",
 				"colorTo": "D99F6BFF"
 			},
@@ -667,7 +667,7 @@ weapons: [
 				"length": 0,
 				"interp": "bounceOut",
 				"lifetime": 125,
-				"region": "exogenesis-tall",
+				"region": "jsongenesis-tall",
 				"colorFrom": "D99F6BFF",
 				"colorTo": "D99F6BFF"
 			},
@@ -690,7 +690,7 @@ weapons: [
 				"length": 0,
 				"interp": "bounceOut",
 				"lifetime": 125,
-				"region": "exogenesis-wide",
+				"region": "jsongenesis-wide",
 				"colorFrom": "F3E979FF",
 				"colorTo": "F3E979FF"
 			},
@@ -702,7 +702,7 @@ weapons: [
 				"length": 0,
 				"interp": "bounceOut",
 				"lifetime": 125,
-				"region": "exogenesis-tall",
+				"region": "jsongenesis-tall",
 				"colorFrom": "F3E979FF",
 				"colorTo": "F3E979FF"
 			},
@@ -725,7 +725,7 @@ weapons: [
 				"length": 0,
 				"interp": "bounceOut",
 				"lifetime": 125,
-				"region": "exogenesis-wide",
+				"region": "jsongenesis-wide",
 				"colorFrom": "FFFFFF",
 				"colorTo": "FFFFFF"
 			},
@@ -737,7 +737,7 @@ weapons: [
 				"length": 0,
 				"interp": "bounceOut",
 				"lifetime": 125,
-				"region": "exogenesis-tall",
+				"region": "jsongenesis-tall",
 				"colorFrom": "FFFFFF",
 				"colorTo": "FFFFFF"
 			}
@@ -745,7 +745,7 @@ weapons: [
 		}
 		
 		"type": "basicBulletType",
-		"sprite": "exogenesis-peircer",
+		"sprite": "jsongenesis-peircer",
 		"shrinkX": 0,
 		"shrinkY": 0,
 		"lifetime": 160,
@@ -944,7 +944,7 @@ weapons: [
 				"colorTo": "D99F6BFF"
 			}
 			
-			"sprite": "exogenesis-peircer",
+			"sprite": "jsongenesis-peircer",
 			"trailColor": "F3E979FF",
 			"trailParam": 5,
 			"trailEffect": "none",
@@ -995,7 +995,7 @@ abilities: [
 		"sizeTo": 106.3,
 		"length": 0.01,
 		"lifetime": 15,
-		"region": "exogenesis-war-wings",
+		"region": "jsongenesis-war-wings",
 		"colorFrom": "F3E979FF",
 		"colorTo": "F3E97900",
 		"lightOpacity": 0,

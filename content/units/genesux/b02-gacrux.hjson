@@ -81,7 +81,7 @@ research: {
         pierceCap: 3
         pierceBuilding: true
         type: basicBulletType
-        sprite: exogenesis-star-cutter
+        sprite: jsongenesis-star-cutter
         damage: 30
         status: freezing
         statusDuration: 150
@@ -100,7 +100,7 @@ research: {
           length: 0
           lifetime: 20
           sizeFrom: 8
-          region: exogenesis-star-cutter-effect
+          region: jsongenesis-star-cutter-effect
           colorFrom: A9D8FFFF
           colorTo: 66B1FFAA
         }

@@ -8,7 +8,7 @@
   "affinities": [
     "tarred",
     "melting",
-    "exogenesis-molten1"
+    "jsongenesis-molten1"
   ],
   "effect": {
     "type": "MultiEffect",
