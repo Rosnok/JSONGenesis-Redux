@@ -40,7 +40,7 @@
   },
   "consumes": {
     "liquids": [
-      "exogenesis-cold-plasma/0.009"
+      "jsongenesis-cold-plasma/0.009"
     ]
   },
   "requirements": [

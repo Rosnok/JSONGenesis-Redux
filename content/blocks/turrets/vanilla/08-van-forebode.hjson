@@ -34,7 +34,7 @@ ammoTypes: {
 	  sizeFrom: 36
       colorFrom: F9C27A
       colorTo: F9C27A
-	  region: exogenesis-forebodeshoot
+	  region: jsongenesis-forebodeshoot
 	  }
 	  {
 	  type: pointEffect
@@ -44,7 +44,7 @@ ammoTypes: {
 	  sizeFrom: 24
       colorFrom: FFF8E8
       colorTo: FFF8E8
-	  region: exogenesis-forebodeshoot
+	  region: jsongenesis-forebodeshoot
 	  }
 	  ]
 	  

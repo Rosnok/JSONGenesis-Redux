@@ -106,7 +106,7 @@
     lifetime: 105
     divisions: 20
     length: 500
-    status: exogenesis-plasma-vaporisation
+    status: jsongenesis-plasma-vaporisation
     statusDuration: 150
     hitEffect: {
       type: ParticleEffect
