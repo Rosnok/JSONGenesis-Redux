@@ -26,7 +26,6 @@ Jupiteium Reactor and Neutron Reactor now properly generates power.
 Forebode sprite fixed and recolored to be inline with Foreshadow-like turrets, and been given proper appropriate sized point bullet effect.
 Radically resprited and rebalanced Barrage. Given heat texture.
 Fixed missing material texture of Goliath Drill.
-Fix Pine and Ignition turret sprite sizes. Resprited. Renamed Pine to Herder.
 Genesux Mining Drone Factory has been renamed and resprited. Moved to after Genesux Factory in tech tree.
 Renamed Mining Drone 1 to Triton, and Mining Drone 2 to Charon. Slightly tweaked stats of drones.
 Gave Nadir's main gun a proper charging sound.
@@ -59,3 +58,11 @@ Moved Forge of Annihilation to Soletux Tech Tree. Fixed Serpulo resources being 
 Solar Vanquisher attack has been tweaked. It can now attack buildings, however with a -90% damage multiplier, and attack range is decreased.
 Reworked and renamed Fornax to Throne. Main gun now has moving barrels and glowy bits, resprited the heavy missiles and changed up its attack. Adjusted range.
 Reworked and renamed Anvil to Crown. Main weapon is now a large minigun (with working heavy barrels, code borrowed from Twcash's Aquarion, specifically from the unit Consul) firing heavy rounds, secondary weapons are now shock artillery. Adjusted range.
+Tweak Brimstone range
+Demon cannot target air units anymore. Loading it with Thorium turns it into a Fuse-like weapon with range reduced appropriate to its attack.
+Adjusted Calamity Forge inputs and outputs
+Fix  Catastrophe build cost (Thorium was duplicate, and Elecian exclusive resource is nowhere to be seen)
+Rework Pine and Ignition turrets. Pine was renamed to Hereder. Resprited so they respectively look like smaller versions of Swarmer and Fuse turrets. Added one more ammo type to Ignition, and adjust balance for Herder's missiles.
+Sight has now heat texture, bullet trail length reduced.
+Fix Atlas titan charge sound.
+Xenoct's weapon heat texture was misrenamed. Fixed.
