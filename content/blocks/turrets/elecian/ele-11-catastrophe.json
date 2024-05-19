@@ -174,13 +174,12 @@
   },
   "requirements": [
     "osmium/2300",
-    "thorium/3000",
+    "thorium/3800",
     "titanium/2750",
     "surge-alloy/3800",
     "alpha-yellow/2860",
     "plastanium/1750",
-    "thorium/800",
-    "copper/3560"
+    "oltuxium/3160"
   ],
   "category": "turret",
   "research": "ele-09-ravager"

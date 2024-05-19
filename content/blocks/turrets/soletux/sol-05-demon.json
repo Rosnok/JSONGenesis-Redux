@@ -10,8 +10,9 @@
   "armor": 20,
   "rotateSpeed": 2,
   "shake": 4,
-  "shootSound": "shotgun",
+  "shootSound": "artillery",
   "ammoPerShot": 5,
+  "targetAir": false,
   "drawer": {
     "type": "drawTurret",
     "basePrefix": "solran-"
@@ -44,7 +45,7 @@
             "particles": 20,
             "length": 35,
             "baseLength": 10,
-            "lifetime": 280,
+            "lifetime": 140,
             "lightColor": "ff7048",
             "interp": "circleOut",
             "sizeInterp": "pow5In",
@@ -59,7 +60,7 @@
             "particles": 15,
             "length": 45,
             "baseLength": 10,
-            "lifetime": 200,
+            "lifetime": 100,
             "lightColor": "ff7048",
             "interp": "circleOut",
             "sizeInterp": "pow5In",
@@ -71,7 +72,7 @@
           },
           {
             "type": "WaveEffect",
-            "lifetime": 60,
+            "lifetime": 30,
             "sizeFrom": 20,
             "sizeTo": 40,
             "strokeFrom": 4,
@@ -110,7 +111,7 @@
             "particles": 20,
             "length": 35,
             "baseLength": 10,
-            "lifetime": 280,
+            "lifetime": 140,
             "lightColor": "ff7048",
             "interp": "circleOut",
             "sizeInterp": "pow5In",
@@ -125,7 +126,7 @@
             "particles": 15,
             "length": 45,
             "baseLength": 10,
-            "lifetime": 200,
+            "lifetime": 100,
             "lightColor": "768a9aFF",
             "interp": "circleOut",
             "sizeInterp": "pow5In",
@@ -137,7 +138,7 @@
           },
           {
             "type": "WaveEffect",
-            "lifetime": 60,
+            "lifetime": 30,
             "sizeFrom": 20,
             "sizeTo": 40,
             "strokeFrom": 4,
@@ -151,6 +152,7 @@
     },
     "thorium": {
       "buildingDamageMultiplier": 0.7,
+	  "rangeChange": -320,
       "type": "shrapnelBulletType",
       "damage": 220,
       "toColor": "F9A3C7FF",
@@ -158,6 +160,7 @@
       "width": 24,
       "hitEffect": "thoriumShoot",
       "shootEffect": "thoriumShoot",
+	  "despawnSound": "shotgun",
       "pierce": true,
       "smokeEffect": "hitBulletBig"
     }

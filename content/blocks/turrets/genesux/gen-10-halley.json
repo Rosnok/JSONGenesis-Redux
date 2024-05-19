@@ -6,7 +6,7 @@
   "health": 1600,
   "reload": 70,
   "range": 300,
-  "rotateSpeed": 4,
+  "rotateSpeed": 2.2,
   "shootY": 13,
   "drawer": {
     "type": "drawTurret",

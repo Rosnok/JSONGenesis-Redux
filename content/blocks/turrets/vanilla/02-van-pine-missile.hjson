@@ -1,0 +1,58 @@
+  type: ItemTurret
+  researchCostMultiplier: 0.5
+  size: 1
+  health: 95
+  maxAmmo: 24
+  ammoPerShot: 2
+  reload: 33
+  range: 150
+  targetAir: true
+  targetGround: true
+  rotateSpeed: 3.3
+  inaccuracy: 5
+  recoil: 2
+  shootSound: missile
+  ammoTypes: {
+    graphite: {
+      type: MissileBulletType
+      damage: 13
+      splashDamageRadius: 16
+      splashDamage: 25
+      speed: 3.5
+      lifetime: 50
+      height: 7
+      width: 7
+      pierce: false
+      homingPower: 1
+      homingRange: 48
+      hitEffect: plasticExplosion
+      smokeEffect: hitBulletBig
+    }
+    pyratite: {
+      type: MissileBulletType
+      damage: 18
+      splashDamageRadius: 14
+      splashDamage: 21
+      height: 7
+      width: 7
+      speed: 3.5
+      lifetime: 50
+      status: burning
+      statusDuration: 400
+      pierce: false
+      homingPower: 0.5
+      homingRange: 64
+	  makeFire: true
+      frontColor: F8AD42
+      backColor: F68021
+      hitEffect: blastExplosion
+      smokeEffect: hitBulletBig
+    }
+  }
+  requirements: [
+    copper/80
+    lead/80
+	graphite/50
+]
+  category: turret
+  research: duo

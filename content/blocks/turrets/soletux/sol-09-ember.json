@@ -54,7 +54,7 @@
     ]
   },
   "shake": 4,
-  "shootSound": "laserbig",
+  "shootSound": "ember_shoot",
   "loopSound": "beam",
   "loopSoundVolume": 3.5,
   "recoil": 3,

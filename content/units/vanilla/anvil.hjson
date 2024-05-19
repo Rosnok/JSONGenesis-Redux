@@ -1,0 +1,182 @@
+  research: {
+    parent: reign
+    requirements: [
+      graphite/1220
+      surge-alloy/1000
+      plastanium/940
+      phase-fabric/850
+      copper/1240
+      lead/1240
+      silicon/1300
+    ]
+  }
+  type: mech
+  lightRadius: 200
+  armor: 36
+  rotateSpeed: 1.4
+  canDrown: false
+  hitSize: 40
+  mechFrontSway: 1
+  mechSideSway: 1
+  mechStepParticles: true
+  mechStepShake: 2
+  singleTarget: true
+  speed: 0.30
+  health: 78600
+  immunities: [
+    melting
+    blasted
+    burning
+    slow
+  ]
+  weapons: [
+{
+name: anvil-weapon
+shootSound: shootBig
+layerOffset: -0.001
+recoil: 0
+rotate: true
+rotationLimit: 35
+shootY: 25
+shootX: 0.5
+rotateSpeed: 0.8
+x: 29.5
+y: 6.5
+reload: 3
+ejectEffect: casing4
+parts: [
+{
+suffix: -barrel
+moveX: 3
+progress: {
+type: reload
+op: curve
+start: 0
+end: 1
+interp: sineIn
+}
+under: true
+mixColor: 444b4990
+mixColorTo: 444b4990
+colorFrom: 829194
+ColorTo: 829194
+}
+{
+suffix: -barrel
+moveX: 3
+x: -3
+progress: {
+type: reload
+op: curve
+start: 0
+end: 1
+interp: sineIn
+}
+under: true
+mixColor: 444b4990
+mixColorTo: 444b4990
+colorFrom: 444b49
+ColorTo: 444b49
+}
+{
+//middle to right
+suffix: -barrel
+moveX: -3
+moveY: .5
+x: 3
+progress: {
+type: reload
+op: curve
+start: 0
+end: 1
+interp: sineIn
+}
+under: true
+mixColor: 444b4990
+mixColorTo: 444b4900
+colorFrom: 444b49
+ColorTo: 444b49
+}
+{
+//left to middle
+suffix: -barrel
+moveY: -.5
+moveX: -3
+progress: {
+type: reload
+op: curve
+start: 0
+end: 1
+interp: sineIn
+}
+under: true
+mixColor: 82919400
+mixColorTo: 444b4990
+colorFrom: 829194
+ColorTo: 444b49
+}
+]
+bullet: {
+type: BasicBulletType
+trailLength: 8
+trailWidth: 1.8
+lifetime: 45
+speed: 7.7
+width: 10
+height: 17
+shrinkY: 0
+shrinkX: 0
+damage: 90
+pierceCap: 2
+pierceArmor: true
+shootEffect: shootBig
+hitEffect: blastExplosion
+}
+}
+    {
+      name: tyrant-arty
+      shootCone: 10
+      mirror: true
+      alternate: true
+      rotateSpeed: 3
+      rotate: true
+      shootY: 8
+      x: 16
+      y: -3.5
+      reload: 50
+      inaccuracy: 8
+      recoil: 3
+      ejectEffect: casing2
+      shootSound: shootBig
+	  		shoot: {
+		shots: 6
+		shotDelay: 5
+		spread: 3
+	               }
+      shake: 1
+      bullet: {
+        sprite: missile-large
+        knockback: 1
+        lightning: 8
+        lightningDamage: 30
+        lightningLength: 2.5
+        lightningLengthRand: 5
+        trailLength: 2
+        trailWidth: 1.6
+		trailColor: FFD37F
+		backColor: FFD37F
+        type: ArtilleryBulletType
+        hitEffect: blastExplosion
+        shootEffect: shootBig2
+        despawnEffect: blastExplosion
+		status: shocked
+        lifetime: 170
+        damage: 20
+		splashDamage: 53
+        splashDamageRadius: 12
+        speed: 2.4
+        width: 5
+        height: 10
+      }
+    }
+  ]

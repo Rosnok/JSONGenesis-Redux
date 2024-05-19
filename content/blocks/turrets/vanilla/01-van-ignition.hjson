@@ -1,0 +1,52 @@
+  type: ItemTurret
+  researchCostMultiplier: 0.5
+  size: 1
+  health: 150
+  reload: 44
+  range: 90
+  maxAmmo: 12
+  inaccuracy: 3
+  shots: 2
+  targetAir: false
+  targetGround: true
+  shootCone: 10
+  spread: 1
+  recoil: 3
+  rotateSpeed: 5
+  shootSound: shotgun
+  ammoPerShot: 3
+  ammoTypes: {
+    lead: {
+      type: shrapnelBulletType
+      lifetime: 19
+      damage: 19
+      toColor: AB99D3FF
+      length: 80
+      width: 5
+	  serrations: 0
+      hitEffect: blastExplosion
+      shootEffect: sparkShoot
+      pierce: true
+      smokeEffect: hitBulletBig
+    }
+	titanium: {
+      type: shrapnelBulletType
+      lifetime: 19
+      damage: 28
+      toColor: A4B8FAFF
+      length: 80
+      width: 8
+	  serrations: 0
+      hitEffect: blastExplosion
+      shootEffect: sparkShoot
+      pierce: true
+      smokeEffect: hitBulletBig
+    }
+  }
+  requirements: [
+   copper/60
+   lead/60
+   titanium/40
+  ]
+  category: turret
+  research: duo

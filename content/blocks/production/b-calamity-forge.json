@@ -207,10 +207,10 @@
     "power": 80,
     "items": {
       "items": [
-        "omega-blue/50",
-        "stellar-steel/60",
-        "urbium/60",
-        "osmium/40"
+        "omega-blue/40",
+        "stellar-steel/50",
+        "urbium/45",
+        "osmium/35"
       ]
     }
   },
@@ -228,5 +228,5 @@
   "envDisabled": 16
   "research": "b-metaglass-forge",
   "category": "crafting",
-  "outputItem": "blue-titan-alloy/2"
+  "outputItem": "blue-titan-alloy/3"
 }

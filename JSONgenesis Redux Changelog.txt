@@ -41,7 +41,6 @@ Removed Orbit & Comet turrets. (Reason: Wholly underpowered turrets that just bl
 Removed unfinished Soletux Volcanic tank
 Fixed Prometheus titan research icon.
 Renamed Toxicity to Therid. Main gun now has charging sound, and acid guns now have a firing sound.
-Fornax' big guns now have glowy bits and has now 25 degrees of rotation.
 Fixed Tyrannical Outburst status effect icon.
 Fixed Acidic (now called Acid Burn) status effect icon.
 Restored the "lost" Hyperion Titan from the 2.4 branch of Exogenesis github repo. Made it buildable in the Titan Assembler as a Tier 3 Titan Unit.
@@ -58,3 +57,5 @@ Moved Ruiner and Ravager from Serpulo Tech Tree into Elecian Tech tree, Catastro
 Fixed Hades missing turret base texture, glow textures and heat textures. Fixed Serpulo resources being in its build cost.
 Moved Forge of Annihilation to Soletux Tech Tree. Fixed Serpulo resources being in its build cost and inputs, now it appears in Erekir. 
 Solar Vanquisher attack has been tweaked. It can now attack buildings, however with a -90% damage multiplier, and attack range is decreased.
+Reworked and renamed Fornax to Throne. Main gun now has moving barrels and glowy bits, resprited the heavy missiles and changed up its attack. Adjusted range.
+Reworked and renamed Anvil to Crown. Main weapon is now a large minigun (with working heavy barrels, code borrowed from Twcash's Aquarion, specifically from the unit Consul) firing heavy rounds, secondary weapons are now shock artillery. Adjusted range.

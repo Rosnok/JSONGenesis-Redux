@@ -1,289 +1,442 @@
-{
-  research: {
-    parent: anvil
-    requirements: [
-      graphite/1220
-      surge-alloy/1200
-      plastanium/940
-      phase-fabric/1000
-      voltirium-alloy/1000
-      copper/1540
-      lead/1540
-      silicon/1800
+research: {
+  parent: anvil
+  requirements: [
+    graphite/1220
+    surge-alloy/1200
+    plastanium/940
+    phase-fabric/1000
+    voltirium-alloy/1000
+    copper/1540
+    lead/1540
+    silicon/1800
+  ]
+}
+type: mech
+lightRadius: 200
+armor: 65
+rotateSpeed: 0.8
+canDrown: false
+hitSize: 60
+mechFrontSway: 1
+mechSideSway: 1.4
+mechStepParticles: true
+mechStepShake: 4
+singleTarget: true
+speed: 0.31
+health: 180000
+immunities: [
+  melting
+  jsongenesis-militarian-buff
+  blasted
+  burning
+  slow
+]
+weapons: [
+  {
+    name: fornax-weapon
+    x: 32
+    shootCone: 45
+    y: 0
+    reload: 6
+    alternate: true
+    top: false
+    rotate: false
+    recoil: 1.8
+    recoils: 3
+	shootY: 29
+	xRand: 0.1
+    heatColor: F9350F
+    layerOffset: -0.001
+    parts: [
+      {
+        type: RegionPart
+        suffix: -barrel-3
+        progress: recoil
+        recoilIndex: 2
+        under: true
+        moveY: -6
+        heatProgress: {
+          type: recoil
+          cooldownTime: 30
+          amount: 0.2
+          other: 0
+          recoilIndex: 2
+        }
+      }
+      {
+        type: RegionPart
+        suffix: -barrel-2
+        progress: recoil
+        recoilIndex: 1
+        under: true
+        moveY: -6
+        heatProgress: {
+          type: recoil
+          cooldownTime: 30
+          amount: 0.2
+          other: 0
+          recoilIndex: 1
+        }
+      }
+      {
+        type: RegionPart
+        suffix: -barrel-1
+        progress: recoil
+        recoilIndex: 0
+        under: true
+        moveY: -6
+        heatProgress: {
+          type: recoil
+          cooldownTime: 30
+          amount: 0.2
+          other: 0
+          recoilIndex: 0
+        }
+      }
+      {
+        type: RegionPart
+        suffix: -glow1
+        progress: recoil
+        recoilIndex: 2
+        blending: additive
+        outline: false
+		color: E8D17400
+        colorTo: E8D17490
+      }
+      {
+        type: RegionPart
+        suffix: -glow2
+        progress: recoil
+        recoilIndex: 1
+        blending: additive
+        outline: false
+		color: E8D17400
+        colorTo: E8D17490
+      }
+      {
+        type: RegionPart
+        suffix: -glow3
+        progress: recoil
+        recoilIndex: 0
+        blending: additive
+        outline: false
+		color: E8D17400
+        colorTo: E8D17490
+      }
     ]
-  }
-  type: mech
-  lightRadius: 200
-  armor: 65
-  rotateSpeed: 0.8
-  canDrown: false
-  hitSize: 60
-  mechFrontSway: 1
-  mechSideSway: 1.4
-  mechStepParticles: true
-  mechStepShake: 4
-  singleTarget: true
-  speed: 0.31
-  health: 180000
-  range: 300
-  immunities: [
-    melting
-    jsongenesis-militarian-buff
-    blasted
-    burning
-    slow
-  ]
-  weapons: [
-    {
-      name: fornax-weapon
-      x: 32
-      shootCone: 45
-      y: 0
-      reload: 7
-      alternate: true
-      top: false
-      rotate: false
-      recoil: 2.5
-	  parts: [
-       {
-	  type: RegionPart
-	  layer: -1
-      colorTo: ff0000AA
-      color: ff0000AA
-	  blending: additive
-      outline: false
-      suffix: -glow
-       }
-	         ]
-      shootY: 29
-      xRand: 5.5
-      layerOffset: -0.001
-      inaccuracy: 5
-      shoot: {
-        type: shootPattern
-        shots: 2
-        shotDelay: 1
-      }
-      shake: 3
-      shootSound: shootBig
-	  rotate: true
-      rotateSpeed: 1
-      rotationLimit: 25
-      ejectEffect: casing4
-      bullet: {
-        type: BasicBulletType
-        sprite: jsongenesis-pointy-bullet
-        damage: 80
-        height: 14
-        width: 12
-        speed: 11
-        lifetime: 28
-        homingPower: 0.6
-        homingDelay: 14
-        homingRange: 160
-        shrinkX: 0
-        shrinkY: 0
-        lightning: 7
-        lightningDamage: 20
-        lightningLength: 4
-        lightningCone: 40
-        lightningLengthRand: 6
-        hitEffect: {
-          type: ParticleEffect
-          line: true
-          particles: 6
-          lifetime: 20
-          length: 75
-          cone: -40
-          lenFrom: 8
-          lenTo: 8
-          colorFrom: FFFFFFF
-          colorTo: F3E979FF
-        }
-        despawnEffect: {
-          type: ParticleEffect
-          line: true
-          particles: 6
-          lifetime: 20
-          length: 75
-          cone: -40
-          lenFrom: 8
-          lenTo: 8
-          colorFrom: FFFFFFF
-          colorTo: F3E979FF
-        }
-        shootEffect: shootHealYellow
-        trailColor: F3E979FF
-        trailLength: 20
-        trailWidth: 3.5
-        absorbable: false
-        lightColor: F3E979FF
-        frontColor: FFFFFFF
-        backColor: F3E979FF
-      }
+    shootY: 29
+    inaccuracy: 5
+    shoot: {
+      type: ShootBarrel
+      shots: 1
+      barrels: [
+        2, 0, 0,
+        0, 0, 0,
+       -2, 0, 0
+      ]
     }
-    {
-      name: fornax-heavy-rockets
-      shootCone: 15
-      shootY: 3
-      mirror: true
-      alternate: true
-      rotateSpeed: 3
-      inaccuracy: 8
-      rotate: true
-      x: 27
-      y: 4
-      reload: 49
-      recoil: 3
-      ejectEffect: casing2
-      shootSound: bang
-      shoot: {
-        type: shootPattern
-        shots: 2
-        shotDelay: 2
-      }
-      shake: 1
-      bullet: {
-        keepVelocity: false
-        type: MissileBulletType
-        shootEffect: blastExplosion
-        hitEffect: {
-          type: multiEffect
-          effects: [
-            {
-              type: ParticleEffect
-              particles: 30
-              length: 60
-              lifetime: 46
-              cone: 360
-              colorFrom: FF875BFF
-              colorTo: FF875B15
-              sizeFrom: 5
-              sizeTo: 0
-            }
-            {
-              type: WaveEffect
-              lifetime: 25
-              sizeFrom: 0
-              sizeTo: 50
-              strokeFrom: 6
-              strokeTo: 0
-              colorFrom: FF875BFF
-              colorTo: FF875BF10
-            }
-          ]
-        }
-        despawnEffect: {
-          type: multiEffect
-          effects: [
-            {
-              type: ParticleEffect
-              particles: 30
-              length: 60
-              lifetime: 46
-              cone: 360
-              colorFrom: FF875BFF
-              colorTo: FF875B15
-              sizeFrom: 5
-              sizeTo: 0
-            }
-            {
-              type: WaveEffect
-              lifetime: 25
-              sizeFrom: 0
-              sizeTo: 50
-              strokeFrom: 6
-              strokeTo: 0
-              colorFrom: FF875BFF
-              colorTo: FF875BF10
-            }
-          ]
-        }
-        damage: 120
-        speed: 5
-        lifetime: 40
-        homingPower: 0.0068
-        homingRange: 100
-        weaveScale: 0
-        weaveMag: 0
-        height: 20
-        knockback: 3
-        width: 8
-        splashDamageRadius: 20
-        splashDamage: 100
-      }
-    }
-    {
-      name: fornax-heavy-gunner
-      top: true
-      mirror: true
-      alternate: true
-      y: -8
-      x: 25
-      rotate: true
-      rotateSpeed: 2
-      inaccuracy: 2
-      shootY: 15
-      reload: 16
-      recoil: 3
-      shoot: {
-        type: shootPattern
-        shots: 3
-        shotDelay: 3
-      }
-      ejectEffect: casing2
-      shootSound: shootBig
-      bullet: {
-        type: basicBulletType
-        knockback: 5
-        hitEffect: blastExplosion
-        shootEffect: shootBig2
-        despawnEffect: blastExplosion
-        pierce: true
-        lifetime: 45
-        damage: 140
-        speed: 6
-        width: 13
-        height: 16
-      }
-    }
-  ]
-  abilities: [
-    {
-      type: mindustry.entities.abilities.StatusFieldAbility
-      activeEffect: {
-          type: ParticleEffect
-          lifetime: 25
-          length: 0
-          sizeFrom: 2
-          sizeTo: 0
-          particles: 2
-          colorFrom: FF5845FF
-          colorTo: DE4136FF
-        }
-		effect: jsongenesis-tyrannical-outburst
-      range: 1
-      reload: 1000
-      duration: 125
-    }
-    {
-      type: mindustry.entities.abilities.StatusFieldAbility
-      activeEffect: {
+    shake: 3
+    shootSound: bang
+    rotate: true
+    rotateSpeed: 1
+    rotationLimit: 25
+    ejectEffect: casing4
+    bullet: {
+      type: BasicBulletType
+      sprite: jsongenesis-pointy-bullet
+      damage: 140
+      height: 14
+      width: 12
+      speed: 11
+      lifetime: 33
+      shrinkX: 0
+      shrinkY: 0
+      lightning: 7
+      lightningDamage: 20
+      lightningLength: 4
+      lightningCone: 40
+      lightningLengthRand: 6
+	intervalBullets: 2
+	intervalRandomSpread: 30
+	bulletInterval: 1
+	intervalBullet: {
+	type: LightningBulletType
+	lightningColor: FFD37F
+	damage: 50
+	collidesGround: false
+	collidesTiles: false
+	lightningLengthRand: 4
+	lightningLength: 2
+		}
+      hitEffect: {
         type: ParticleEffect
-        lifetime: 25
-        layer: 59
-        length: 0
-        sizeFrom: 12
-        sizeTo: 0
-        particles: 1
-        colorFrom: FF875BFF
-        colorTo: FF875BFF
-        region: particle
+        line: true
+        particles: 3
+        lifetime: 20
+        length: 75
+        cone: -40
+        lenFrom: 8
+        lenTo: 8
+        colorFrom: FFFFFFF
+        colorTo: FFA566
       }
-      effect: jsongenesis-militarian-buff
-      range: 165
-      reload: 264
-      duration: 160
+      despawnEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 3
+        lifetime: 20
+        length: 75
+        cone: -40
+        lenFrom: 8
+        lenTo: 8
+        colorFrom: FFFFFFF
+        colorTo: FFA566
+      }
+      shootEffect: shootBig2
+	  trailColor: FFD37F
+      trailLength: 8
+      trailWidth: 3.5
+      absorbable: false
+      lightColor: FFA566
+      backColor: FFD37F
     }
-  ]
-} 
+  }
+  {
+    name: fornax-heavy-rockets
+    shootCone: 15
+    shootY: 3
+    mirror: true
+    alternate: true
+    rotateSpeed: 3
+    inaccuracy: 8
+    rotate: true
+    x: 24
+    y: 4
+    reload: 49
+    recoil: 3
+    ejectEffect: none
+    shootSound: missile
+    shoot: {
+      type: ShootAlternate
+      shots: 6
+      shotDelay: 4
+	  barrels: 3
+	  spread: 2.5
+    }
+    shake: 1
+    bullet: {
+      keepVelocity: false
+      type: MissileBulletType
+      shootEffect: shootSmallFlame
+      smokeEffect: {
+        type: ParticleEffect
+        particles: 20
+        interp: pow5Out
+        sizeInterp: pow5In
+        sizeFrom: 1.5
+        sizeTo: 0
+        length: -58
+        baseLength: -20
+        lifetime: 40
+        colorTo: ffffff00
+        cone: 10
+        layer: 61
+        offsetX: -4
+      }
+      hitEffect: [
+        {
+          lightOpacity: 0
+          length: 50
+          lifetime: 30
+          particles: 2
+          colorFrom: 787878
+          colorTo: 787878
+          sizeFrom: 3
+          sizeTo: 0
+          interp: pow3Out
+          sizeInterp: pow2In
+        }
+        {
+          lightOpacity: 0
+          length: 45
+          lifetime: 45
+          particles:4
+          colorFrom: 787878
+          colorTo: 787878
+          sizeFrom: 5
+          sizeTo: 0
+          interp: pow2Out
+          sizeInterp: pow2In
+        }
+        {
+          lightOpacity: 0
+          length: 60
+          lifetime: 30
+          particles: 3
+          colorFrom: 9f9f9f
+          colorTo: 787878
+          sizeFrom: 1
+          sizeTo: 0
+          interp: pow5Out
+          sizeInterp: pow3In
+        }
+        {
+          lightOpacity: 0
+          length: 50
+          lifetime: 20
+          particles: 3
+          colorFrom: 9f9f9f
+          colorTo: 787878
+          sizeFrom: 3
+          sizeTo: 0
+          interp: pow5Out
+          sizeInterp: pow3In
+        }
+        {
+          length: 60
+          line: true
+          lifetime: 30
+          particles: 3
+          colorTo: ffd2ae
+          lenFrom: 7
+          lenTo: 0
+          strokeFrom: 3
+          strokeTo: 1
+          interp: pow2Out
+          sizeInterp: pow2In
+        }
+        {
+          type: WaveEffect
+          lifetime: 20
+          sizeFrom: 0
+          sizeTo: 45
+          strokeFrom: 4
+          strokeTo: 0
+          colorTo: ffd2ae
+        }
+      ]
+      despawnEffect: [
+        {
+          lightOpacity: 0
+          length: 50
+          lifetime: 30
+          particles: 2
+          colorFrom: 787878
+          colorTo: 787878
+          sizeFrom: 3
+          sizeTo: 0
+          interp: pow3Out
+          sizeInterp: pow2In
+        }
+        {
+          lightOpacity: 0
+          length: 45
+          lifetime: 45
+          particles:4
+          colorFrom: 787878
+          colorTo: 787878
+          sizeFrom: 5
+          sizeTo: 0
+          interp: pow2Out
+          sizeInterp: pow2In
+        }
+        {
+          lightOpacity: 0
+          length: 60
+          lifetime: 30
+          particles: 3
+          colorFrom: 9f9f9f
+          colorTo: 787878
+          sizeFrom: 1
+          sizeTo: 0
+          interp: pow5Out
+          sizeInterp: pow3In
+        }
+        {
+          lightOpacity: 0
+          length: 50
+          lifetime: 20
+          particles: 3
+          colorFrom: 9f9f9f
+          colorTo: 787878
+          sizeFrom: 3
+          sizeTo: 0
+          interp: pow5Out
+          sizeInterp: pow3In
+        }
+        {
+          length: 60
+          line: true
+          lifetime: 30
+          particles: 3
+          colorTo: ffd2ae
+          lenFrom: 7
+          lenTo: 0
+          strokeFrom: 3
+          strokeTo: 1
+          interp: pow2Out
+          sizeInterp: pow2In
+        }
+        {
+          type: WaveEffect
+          lifetime: 20
+          sizeFrom: 0
+          sizeTo: 45
+          strokeFrom: 4
+          strokeTo: 0
+          colorTo: ffd2ae
+        }
+      ]
+      damage: 105
+      speed: 5.2
+      lifetime: 80
+      homingPower: 0.0076
+      homingRange: 110
+      weaveScale: 0
+      weaveMag: 0
+      height: 20
+      knockback: 3
+      width: 8
+      splashDamageRadius: 24
+      splashDamage: 105
+    }
+  }
+]
+abilities: [
+  {
+    type: mindustry.entities.abilities.StatusFieldAbility
+    activeEffect: {
+      type: ParticleEffect
+      lifetime: 25
+      length: 0
+      sizeFrom: 2
+      sizeTo: 0
+      particles: 2
+      colorFrom: FF5845FF
+      colorTo: DE4136FF
+    }
+    effect: jsongenesis-tyrannical-outburst
+    range: 1
+    reload: 1000
+    duration: 125
+  }
+  {
+    type: mindustry.entities.abilities.StatusFieldAbility
+    activeEffect: {
+      type: ParticleEffect
+      lifetime: 25
+      layer: 59
+      length: 0
+      sizeFrom: 12
+      sizeTo: 0
+      particles: 1
+      colorFrom: FF875BFF
+      colorTo: FF875BFF
+      region: particle
+    }
+    effect: jsongenesis-militarian-buff
+    range: 165
+    reload: 264
+    duration: 160
+  }
+]
