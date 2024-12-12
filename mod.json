@@ -1,8 +1,8 @@
 {
   "displayName": "[cyan]JSONgenesis Redux",
   "name": "jsongenesis",
-  "author": "[blue]AureusStratus",
-  "description": "The old JSON version of Exogenesis. /nA mod that adds in alot of content",
+  "author": "[blue]AureusStratus, revamped by Rosnok",
+  "description": "The old JSON version of Exogenesis, revamped. /nA mod that adds in alot of content",
   "minGameVersion": "137",
   "version": "1.9.1"
 }

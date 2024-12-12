@@ -50,7 +50,7 @@ Fixed Huge Primordium Wall having wrong health.
 Rebalanced Genesis Nodes to be more expensive but more useful than regular vanilla Power Nodes.
 Removed Calamity Energy Cell as it isn't used for anything.
 Rebalanced Cold Energy Fuser a bit, now outputs 2 but now requires 3 titanium. Also reduced hydrogen usage.
-Moved faction-specific materials into their own respective factions. (Lumianite to Quantra, Siravaxa Metal to Genesux, Primordium Iron and Annhihilation Crystal to Soletux)
+Moved faction-specific materials into their own respective factions. (Lumianite to Quantra, Siravaxa Metal to Genesux, Primodrium Iron and Annhihilation Crystal to Soletux)
 Moved Turbulence into Quantra Tech Tree, after Gluon
 Moved Ruiner and Ravager from Serpulo Tech Tree into Elecian Tech tree, Catastrophe moved to after Ravager.
 Fixed Hades missing turret base texture, glow textures and heat textures. Fixed Serpulo resources being in its build cost.
@@ -66,3 +66,4 @@ Rework Pine and Ignition turrets. Pine was renamed to Hereder. Resprited so they
 Sight has now heat texture, bullet trail length reduced.
 Fix Atlas titan charge sound.
 Xenoct's weapon heat texture was misrenamed. Fixed.
+Revamp README to fix typos and 
