@@ -39,7 +39,7 @@
   "hovering": true,
   "immunities": [
     "burning",
-    "jsongenesis-high-energy-blast",
+    "exogenesis-high-energy-blast",
     "melting",
     "freezing"
   ],
@@ -182,7 +182,7 @@
           "colorFrom": "A9D8FFFF",
           "colorTo": "66B1FFFF"
         },
-        "status": "jsongenesis-high-energy-blast",
+        "status": "exogenesis-high-energy-blast",
         "statusDuration": 150
       }
     },
@@ -260,7 +260,7 @@
     {
       "type": "ShieldArcAbility",
       "radius": 60,
-      "region": "jsongenesis-b05-sirius-shield",
+      "region": "exogenesis-b05-sirius-shield",
       "regen": 11,
       "drawArc": false,
       "width": 11,
@@ -311,7 +311,7 @@
           }
         ]
       },
-      "effect": "jsongenesis-star-powered",
+      "effect": "exogenesis-star-powered",
       "range": 165,
       "reload": 1,
       "duration": 5

@@ -70,7 +70,7 @@
         type: BasicBulletType
         sprite: circle-bullet
         chargeSound: lasercharge
-        status: jsongenesis-nuclear-toxicity
+        status: exogenesis-nuclear-toxicity
         statusDuration: 300
         lightRadius: 50
         lightColor: BF92F9FF
@@ -267,7 +267,7 @@
       bullet: {
         type: LiquidBulletType
         liquid: acid
-        status: jsongenesis-acidic
+        status: exogenesis-acidic
         lifetime: 50
         puddleSize: 8
         orbSize: 4.5

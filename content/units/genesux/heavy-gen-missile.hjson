@@ -230,7 +230,7 @@
                 interp: swing
                 lightColor: 66B1FFFF
                 lifetime: 30
-                region: jsongenesis-tall
+                region: exogenesis-tall
                 colorFrom: 66B1FFFF
                 colorTo: 66B1FFFF
               }

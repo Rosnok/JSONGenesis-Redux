@@ -79,7 +79,7 @@
       ],
       "bullet": {
         "type": "basicBulletType",
-        "spawnUnit": "jsongenesis-starlit-missile"
+        "spawnUnit": "exogenesis-starlit-missile"
       }
     },
     {
@@ -121,7 +121,7 @@
       ],
       "bullet": {
         "type": "basicBulletType",
-        "spawnUnit": "jsongenesis-starlit-missile"
+        "spawnUnit": "exogenesis-starlit-missile"
       }
     }
   ]

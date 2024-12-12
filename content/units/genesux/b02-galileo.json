@@ -68,7 +68,7 @@
       ],
       "bullet": {
         "type": "basicBulletType",
-        "sprite": "jsongenesis-energy-partical",
+        "sprite": "exogenesis-energy-partical",
         "hitEffect": {
           "type": "ParticleEffect",
           "line": true,

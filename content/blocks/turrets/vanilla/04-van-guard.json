@@ -21,7 +21,7 @@
   "hasPower": true,
   "shootType": {
     "type": "BasicBulletType",
-    "sprite": "jsongenesis-armored-bullet",
+    "sprite": "exogenesis-armored-bullet",
     "absorbable": true,
     "chargeEffect": "lancerLaserCharge",
     "chargeBeginEffect": "lancerLaserChargeBegin",

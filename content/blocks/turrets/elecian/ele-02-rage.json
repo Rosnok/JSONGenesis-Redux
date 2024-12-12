@@ -22,7 +22,7 @@
   "hasPower": true,
   "shootType": {
     "type": "BasicBulletType",
-    "sprite": "jsongenesis-electric-pulse",
+    "sprite": "exogenesis-electric-pulse",
     "absorbable": false,
     "hittable": false,
     "shrinkY": 0.1,

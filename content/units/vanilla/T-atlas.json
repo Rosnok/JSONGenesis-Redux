@@ -185,7 +185,7 @@
 ],
 "bullet": {
 "type": "empBulletType",
-"status": "jsongenesis-high-energy-blast",
+"status": "exogenesis-high-energy-blast",
 "parts": [
 {
 "type": "shapePart",
@@ -810,7 +810,7 @@
 "interp": "swing",
 "lightColor": "8ca9e8",
 "lifetime": 30,
-"region": "jsongenesis-tall",
+"region": "exogenesis-tall",
 "colorFrom": "aec6ff",
 "colorTo": "8ca9e8"
 }
@@ -905,7 +905,7 @@
 "shootSound": "laser",
 "bullet": {
 "type": "basicBulletType",
-"spawnUnit": "jsongenesis-epimetheus-missile"
+"spawnUnit": "exogenesis-epimetheus-missile"
 }
 },
 {

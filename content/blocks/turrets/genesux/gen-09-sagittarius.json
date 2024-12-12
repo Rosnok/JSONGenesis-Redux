@@ -145,7 +145,7 @@
     "height": 15,
     "shrinkY": 0,
     "shrinkX": 0,
-    "sprite": "jsongenesis-energy-projectile"
+    "sprite": "exogenesis-energy-projectile"
   },
   "requirements": [
     "stellar-steel/600",
