@@ -19,7 +19,7 @@ Exogenesis contains five different races each with there own lore, weapons, defe
 
 `Credits to Đuvent for making both the lore of the factions and the two attack maps`
 
-`Genesux`: In the Siravax they lay in the sub-zero temperature planet called Siratla. There are other planets in the
+`Genesux`: In the Siravax System they lay in the sub-zero temperature planet called Siratla. There are other planets in the
 system. Ruxt is comprised of Siratla Stone and Crystals, while Vantax is a Gas Planet. These three planets also have multiple moons surrounding them, along with their star called Siravax. The Genesux are comprised of cold energy and Siratla stone. They are a type of lithiods, and are quite strong. Their weapons and creations are made
 out of a metal amalgam material formed from various metals and cold energy. Little is understood of their goal, but it seems like
 nothing will stop them from achieving it.
