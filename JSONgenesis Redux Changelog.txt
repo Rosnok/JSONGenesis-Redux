@@ -66,4 +66,4 @@ Rework Pine and Ignition turrets. Pine was renamed to Hereder. Resprited so they
 Sight has now heat texture, bullet trail length reduced.
 Fix Atlas titan charge sound.
 Xenoct's weapon heat texture was misrenamed. Fixed.
-Revamp README to fix typos and 
+Revamp README to fix typos 
