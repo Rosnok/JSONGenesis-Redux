@@ -1,8 +1,8 @@
 {
   "displayName": "[cyan]JSONgenesis Redux",
   "name": "exogenesis",
-  "author": "[blue]AureusStratus, revamped by Rosnok",
-  "description": "The old JSON version of Exogenesis, revamped. /nA mod that adds in alot of content",
+  "author": "[blue]AureusStratus, revamped by Rosnok & more",
+  "description": "(READ) This mod uses the same internal name as exogenesis. \nThis is so that you can use exogenesis save data with this mod. \nHowever, this makes the mods incompatible. \nThe old JSON version of Exogenesis, revamped. \nA mod that adds in alot of content",
   "minGameVersion": "137",
   "version": "1.9.1"
 }
