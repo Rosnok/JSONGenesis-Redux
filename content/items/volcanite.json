@@ -2,7 +2,7 @@
   "cost": 1,
   "color": "403F3FFF",
   "research": {
-    "parent": "graphite",
+    "parent": "soletux",
     "requirements": [
       "graphite/200"
     ]
