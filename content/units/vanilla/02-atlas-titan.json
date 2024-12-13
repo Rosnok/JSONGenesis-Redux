@@ -5,6 +5,7 @@
 "research": {
 "parent": "titan-assembler",
 "requirements": [
+"AtlasCitadel",
 "surge-alloy/50",
 "carbide/50",
 "phase-fabric/50",
