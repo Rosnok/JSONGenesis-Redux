@@ -3,7 +3,7 @@
 "description": "An experimental superweapon developed by [#9681fb]Malis[]. You have gained access to the [#8ca9e8]Energy Devastation Titan[]",
 "researchCostMultiplier": 0.1,
 "research": {
-"objectives": "AtlasCitadel",
+"objectives": ["AtlasCitadel"],
 "parent": "titan-assembler",
 "requirements": [
 "surge-alloy/50",
