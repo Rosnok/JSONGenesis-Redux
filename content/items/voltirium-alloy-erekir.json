@@ -7,7 +7,7 @@
   "research": {
     "parent": "osmium-erekir",
     "requirements": [
-      "osmium-erekir/600"
+      "osmium/600"
     ]
   }
 }
