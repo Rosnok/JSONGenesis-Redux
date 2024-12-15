@@ -10,7 +10,7 @@
 "addStartingItems": false,
 "overrideLaunchDefaults": false,
 "research": {
-"parent": "carbon-freeze",
+"parent": "groundZero",
 "objectives": [
 "voltirium-alloy",
 "17-van-dread",
