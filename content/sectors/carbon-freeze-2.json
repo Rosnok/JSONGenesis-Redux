@@ -10,7 +10,7 @@
 "addStartingItems": false,
 "overrideLaunchDefaults": false,
 "research": {
-"parent": "Terraformed",
+"parent": "carbon-freeze",
 "objectives": [
 "voltirium-alloy",
 "17-van-dread",
