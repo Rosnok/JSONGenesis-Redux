@@ -10,7 +10,7 @@
 "addStartingItems": false,
 "overrideLaunchDefaults": false,
 "research": {
-"parent": "extractionOutpost",
+"parent": "planetaryTerminal",
 "objectives": [
 "voltirium-alloy",
 "17-van-dread",
