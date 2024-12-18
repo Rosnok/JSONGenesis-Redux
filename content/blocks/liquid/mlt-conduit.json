@@ -11,6 +11,8 @@
     "surge-alloy/4",
     "titanium/32"
   ],
-  "research": "plated-conduit",
+  "research": {
+    "parent": "plated-conduit"
+  },
   "category": "liquid"
 }
