@@ -225,8 +225,8 @@
   ],
   "envRequired": 1,
   "envEnabled": 1,
-  "envDisabled": 16
-  "research": "b-metaglass-forge",
+  "envDisabled": 16,
+  "research": "b-cold-plasma-fuser",
   "category": "crafting",
   "outputItem": "blue-titan-alloy/3"
 }

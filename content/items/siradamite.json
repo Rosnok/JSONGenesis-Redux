@@ -3,9 +3,9 @@
   "color": "A9D8FFFF",
   "hardness": 4,
   "research": {
-    "parent": "astrolite",
+    "parent": "urbium",
     "requirements": [
-      "astrolite/200"
+      "urbium/200"
     ]
   }
 }
