@@ -43,7 +43,6 @@
   },
   "requirements": [
     "terrilium/400",
-    "tungsten/600",
     "silicon/800",
     "osmium/2000",
     "blue-titan-alloy/600",
