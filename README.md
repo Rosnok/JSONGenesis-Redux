@@ -12,7 +12,8 @@ A mod that adds a lot more content to the game.
 ## The mod adds:
 
 alot of stuff
-[Changelog from original exogenesis]("JSONgenesis Redux Changelog.txt)
+
+[Changelog from original exogenesis]("JSONgenesis Redux Changelog.txt")
 
 ## Mod races/factions
 
