@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "size": 12,
-  "health": 8789000,
+  "health": 87890,
   "reload": 750,
   "range": 700,
   "ammoPerShot": 10,
