@@ -2,9 +2,9 @@
 
 My discord AureusAltirius#6109
 
-the discord server https://discord.gg/RE9dNUzBVh
+[the discord server](https://discord.gg/RE9dNUzBVh)
 
-Official exogenesis youtube channel link https://youtube.com/channel/UCkIHhwPP42TkNtdx56vbHGA
+[Official exogenesis youtube channel link](https://youtube.com/channel/UCkIHhwPP42TkNtdx56vbHGA)
 
 A mod that adds a lot more content to the game.
 <br>I just hope you guys enjoy my mod.
@@ -12,6 +12,7 @@ A mod that adds a lot more content to the game.
 ## The mod adds:
 
 alot of stuff
+[Changelog from original exogenesis]("JSONgenesis Redux Changelog.txt)
 
 ## Mod races/factions
 
