@@ -135,7 +135,7 @@
       "shoot": {
         "type": "shootPattern",
         "firstShotDelay": 90,
-        "shots": 8
+        "shots": 6
       },
       "velocityRnd": 0.22,
       "inaccuracy": 10,
@@ -315,7 +315,7 @@
         "splashDamageRadius": 80,
         "homingPower": 0.00168,
         "homingRange": 50,
-        "damage": 220,
+        "damage": 130,
         "shrinkY": 0,
         "shrinkX": 0,
         "radius": 80,
