@@ -34,7 +34,7 @@
   "hasPower": true,
   "shootType": {
     "type": "BasicBulletType",
-    "sprite": "jsongenesis-armored-bullet",
+    "sprite": "exogenesis-armored-bullet",
     "status": "corroded",
     "damage": 50,
     "height": 18,

@@ -26,7 +26,7 @@ speed: 0.31
 health: 180000
 immunities: [
   melting
-  jsongenesis-militarian-buff
+  exogenesis-militarian-buff
   blasted
   burning
   slow
@@ -143,7 +143,7 @@ weapons: [
     ejectEffect: casing4
     bullet: {
       type: BasicBulletType
-      sprite: jsongenesis-pointy-bullet
+      sprite: exogenesis-pointy-bullet
       damage: 140
       height: 14
       width: 12
@@ -415,7 +415,7 @@ abilities: [
       colorFrom: FF5845FF
       colorTo: DE4136FF
     }
-    effect: jsongenesis-tyrannical-outburst
+    effect: exogenesis-tyrannical-outburst
     range: 1
     reload: 1000
     duration: 125
@@ -434,7 +434,7 @@ abilities: [
       colorTo: FF875BFF
       region: particle
     }
-    effect: jsongenesis-militarian-buff
+    effect: exogenesis-militarian-buff
     range: 165
     reload: 264
     duration: 160

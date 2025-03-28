@@ -1,7 +1,7 @@
 
   type: ContinuousTurret
   size: 13
-  health: 1000000
+  health: 100000
   outlineColor: 1B1B1BFF
   heatColor: FF5845FF
   reload: 300
@@ -106,7 +106,7 @@
     lifetime: 105
     divisions: 20
     length: 500
-    status: jsongenesis-plasma-vaporisation
+    status: exogenesis-plasma-vaporisation
     statusDuration: 150
     hitEffect: {
       type: ParticleEffect

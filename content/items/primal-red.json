@@ -5,7 +5,7 @@
   "explosiveness": 0.6,
   "color": "E04031FF",
   "research": {
-    "parent": "team-soletux",
+    "parent": "volcanite",
     "requirements": [
       "surge-alloy/200"
     ]

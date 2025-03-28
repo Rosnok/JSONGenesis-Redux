@@ -66,3 +66,14 @@ Rework Pine and Ignition turrets. Pine was renamed to Hereder. Resprited so they
 Sight has now heat texture, bullet trail length reduced.
 Fix Atlas titan charge sound.
 Xenoct's weapon heat texture was misrenamed. Fixed.
+Revamped README to fix typos
+Fixed part of the Soletux research tree being missing
+Fixed astronomical turret health numbers
+Fixed factories having too little storage
+Removed erekir materials from the cold plasma collider recipe
+Moved around the genesux research tree
+Removed unused items from the research tree
+Reworked MLT conduit
+Added sprawling void, a big open sector for making export bases that dont fit in salt flats
+Rebalanced atlas citadel so it isn't nearly impossible
+Fixed forge of Annihilation name & description

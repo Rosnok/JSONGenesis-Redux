@@ -264,8 +264,8 @@
     "burning",
     "melting",
     "slow",
-    "jsongenesis-elders-energy",
-    "jsongenesis-high-energy-blast",
+    "exogenesis-elders-energy",
+    "exogenesis-high-energy-blast",
     "freezing"
   ],
   "weapons": [
@@ -369,7 +369,7 @@
           "colorFrom": "A9D8FFFF",
           "colorTo": "66B1FFFF"
         },
-        "status": "jsongenesis-high-energy-blast",
+        "status": "exogenesis-high-energy-blast",
         "statusDuration": 150
       }
     },
@@ -473,7 +473,7 @@
           "colorFrom": "A9D8FFFF",
           "colorTo": "66B1FFFF"
         },
-        "status": "jsongenesis-high-energy-blast",
+        "status": "exogenesis-high-energy-blast",
         "statusDuration": 150
       }
     },
@@ -547,7 +547,7 @@
                   "length": 0,
                   "lifetime": 30,
                   "interp": "swingIn",
-                  "region": "jsongenesis-spikething",
+                  "region": "exogenesis-spikething",
                   "offsetX": 3,
                   "sizeFrom": 13,
                   "sizeTo": 1,
@@ -633,7 +633,7 @@
           "length": 0,
           "lifetime": 30,
           "interp": "swingIn",
-          "region": "jsongenesis-spikething",
+          "region": "exogenesis-spikething",
           "offsetX": 3,
           "sizeFrom": 13,
           "sizeTo": 1,
@@ -726,7 +726,7 @@
     {
       "type": "StatusFieldAbility",
       "activeEffect": "none",
-      "effect": "jsongenesis-elders-energy",
+      "effect": "exogenesis-elders-energy",
       "range": 180,
       "reload": 1,
       "duration": 5

@@ -42,6 +42,6 @@
     "astrolite/80"
   ],
   "category": "crafting",
-  "research": "b-silicon-oven",
+  "research": "b-crystallizer",
   "outputLiquid": "cold-plasma/0.15"
 }

@@ -57,9 +57,9 @@
   ],
   "envRequired": 1,
   "envEnabled": 1,
-  "envDisabled": 16
+  "envDisabled": 16,
   "category": "crafting",
-  "research": "b-silicon-kiln",
+  "research": "b-metaglass-forge",
   "outputItem": "omega-blue/2"
 }
 

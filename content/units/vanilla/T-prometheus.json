@@ -359,7 +359,7 @@
 "interp": "circleOut",
 "layer": 109,
 "lifetime": 40,
-"region": "jsongenesis-tall",
+"region": "exogenesis-tall",
 "lightColor": "ffb98b",
 "colorFrom": "ffb98b",
 "colorTo": "ffb98b"
@@ -372,7 +372,7 @@
 "length": 0,
 "lifetime": 35,
 "sizeFrom": 90,
-"region": "jsongenesis-wide",
+"region": "exogenesis-wide",
 "colorFrom": "ffb98b",
 "colorTo": "ffb98b"
 },

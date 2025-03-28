@@ -3,7 +3,7 @@
   "radioactivity": 0.12,
   "color": "BA52FFFF",
   "research": {
-    "parent": "phase-fabric",
+    "parent": "",
     "requirements": [
       "phase-fabric/200"
     ]

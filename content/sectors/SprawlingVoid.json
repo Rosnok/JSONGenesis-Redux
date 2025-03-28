@@ -1,0 +1,23 @@
+{
+    "localizedName": "Sprawling Void",
+    "description": "A huge, empty plane devoid of life and structure. Very few resources, but an overwhelming enemy presence. Large amounts of imported resources will be crucial.",
+    "sector": 110,
+    "captureWave": 70,
+    "difficulty": 10,
+    "planet": "serpulo",
+    "allowLaunchLoadout": true,
+    "allowLaunchSchematics": true,
+    "addStartingItems": false,
+    "overrideLaunchDefaults": false,
+    "research": {
+        "parent": "carbon-freeze",
+        "objectives": [
+            "voltirium-alloy",
+            "blue-titan-alloy",
+            "gen-17-hypernova",
+            "gen-18-tesseract",
+            "g-gigantic-gamma-wall",
+            "b-gigantic-nexus-wall"
+        ]
+    }
+} 

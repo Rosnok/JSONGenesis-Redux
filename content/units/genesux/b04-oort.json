@@ -135,7 +135,7 @@
       "shoot": {
         "type": "shootPattern",
         "firstShotDelay": 90,
-        "shots": 8
+        "shots": 6
       },
       "velocityRnd": 0.22,
       "inaccuracy": 10,
@@ -226,7 +226,7 @@
               "length": 0,
               "spin": 7,
               "lifetime": 90,
-              "region": "jsongenesis-wide",
+              "region": "exogenesis-wide",
               "colorFrom": "A9D8FFFF",
               "colorTo": "66B1FFFF"
             },
@@ -239,7 +239,7 @@
               "interp": "swingOut",
               "spin": -7,
               "lifetime": 90,
-              "region": "jsongenesis-tall",
+              "region": "exogenesis-tall",
               "colorFrom": "A9D8FFFF",
               "colorTo": "66B1FFFF"
             },
@@ -301,7 +301,7 @@
           ]
         },
         "spin": 3,
-        "sprite": "jsongenesis-asteroid-bullet",
+        "sprite": "exogenesis-asteroid-bullet",
         "trailColor": "66B1FFFF",
         "trailEffect": "none",
         "trailLength": 16,
@@ -315,7 +315,7 @@
         "splashDamageRadius": 80,
         "homingPower": 0.00168,
         "homingRange": 50,
-        "damage": 220,
+        "damage": 130,
         "shrinkY": 0,
         "shrinkX": 0,
         "radius": 80,

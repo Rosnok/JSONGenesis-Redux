@@ -5,7 +5,7 @@
   "charge": 1000,
   "color": "5DCBF3FF",
   "research": {
-    "parent": "omega-blue",
+    "parent": "",
     "requirements": [
       "omega-blue/1000"
     ]

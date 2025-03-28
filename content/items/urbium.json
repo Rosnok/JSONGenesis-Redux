@@ -5,9 +5,9 @@
   "healthScaling": 0.8,
   "color": "272930",
   "research": {
-    "parent": "stellar-steel",
+    "parent": "astrolite",
     "requirements": [
-      "stellar-steel/1000"
+      "astrolite/100"
     ]
   }
 }

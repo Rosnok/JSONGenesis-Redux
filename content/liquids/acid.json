@@ -3,6 +3,6 @@
   "description": "A dangerous, caustic liquid.",
   "isLiquid": true,
   "cache": "water",
-  "effect": "jsongenesis-acidic",
+  "effect": "exogenesis-acidic",
   "color": "a1b46e"
 }

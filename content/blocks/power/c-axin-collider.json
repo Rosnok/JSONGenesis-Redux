@@ -38,12 +38,11 @@
       "terrilium/15"
     ],
     "liquids": [
-      "jsongenesis-cold-plasma/0.6"
+      "exogenesis-cold-plasma/0.6"
     ]
   },
   "requirements": [
     "terrilium/400",
-    "tungsten/600",
     "silicon/800",
     "osmium/2000",
     "blue-titan-alloy/600",

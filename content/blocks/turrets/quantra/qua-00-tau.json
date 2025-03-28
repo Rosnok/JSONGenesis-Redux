@@ -32,7 +32,7 @@
   "hasPower": true,
   "shootType": {
     "type": "BasicBulletType",
-    "sprite": "jsongenesis-plasma",
+    "sprite": "exogenesis-plasma",
     "absorbable": true,
     "shrinkY": 0.1,
     "shrinkX": 0.1,
@@ -42,7 +42,7 @@
     "trailWidth": 3,
     "lifetime": 40,
     "damage": 18,
-    "status": "jsongenesis-irradiated",
+    "status": "exogenesis-irradiated",
     "height": 13,
     "width": 13,
     "hitEffect": {

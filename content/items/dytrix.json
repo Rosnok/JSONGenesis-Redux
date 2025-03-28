@@ -4,9 +4,9 @@
   "radioactivity": 2,
   "color": "73FFAEFF",
   "research": {
-    "parent": "siradamite",
+    "parent": "urbium",
     "requirements": [
-      "siradamite/150"
+      "urbium/150"
     ]
   }
 }
